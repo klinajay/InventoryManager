@@ -1,34 +1,38 @@
-﻿@page "/ProductOverview"
+﻿@page "/productoverview"
+@* @attribute [StreamRendering(true)] *@
 <h3>ProductOverview</h3>
 
-<a href="ProductDetail">ProductDetail</a>
-<table>
-	<thead>
-		<tr>
-			<th>Product Name</th>
-			<th>Product Description</th>
-			<th>Product Price</th>
-			<th>Product Quantity</th>
-			<th>Product Category</th>
-			<th>Product Supplier</th>
-		</tr>
-		<tbody>
-			@foreach (var product in Products)
-			{
+@if(Products == null) {
+	Console.WriteLine("Inside null.");
+	<p><em>Loading...</em></p>
+}
+else {
+	<table class="table table-light">
+		<thead class=" table-primary">
 			<tr>
-				<td>@product.ProductName</td>
-				<td>@product.Description</td>
-				<td>@product.ProductPrice</td>
-				<td>@product.ProductQuantity</td>
-				<td>@product.ProductCategoryId</td>
-				<td>@product.SupplierId</td>
+				<th>Product Name</th>
+				<th>Product Description</th>
+				<th>Product Price</th>
+				<th>Product Quantity</th>
+				<th>Product Category</th>
+				<th>Product Supplier</th>
 			</tr>
-			}
+		<tbody>
+				@foreach (var product in Products)
+				{
+				<tr>
+					<td>@product.ProductName</td>
+					<td>@product.Description</td>
+					<td>@product.ProductPrice</td>
+					<td>@product.ProductQuantity</td>
+					<td>@product.ProductCategoryId</td>
+					<td>@product.SupplierId</td>
+				</tr>
+				}
 		</tbody>
 		</thead>
-</table>
+	</table>
+}
 
-@* @foreach(var product in products) *@
-@* { *@
-@* 	<td>@product.Name</td> *@
-@* }) *@
+
+
