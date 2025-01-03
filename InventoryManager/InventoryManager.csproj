@@ -10,4 +10,12 @@
     <ProjectReference Include="..\InventoryManagemer.Models\InventoryManager.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+  </ItemGroup>
+
 </Project>

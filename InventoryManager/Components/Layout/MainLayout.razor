@@ -11,7 +11,17 @@
         </div>
 
         <article class="content px-4">
-            @Body
+            <ErrorBoundary>
+                <ChildContent>
+                    @Body
+                </ChildContent>
+                <ErrorContent>
+					<h1>Oops!</h1>
+					<h2>Something went wrong.</h2>
+					<p>Try refreshing the page or navigating back to the previous page.</p>
+                </ErrorContent>
+            </ErrorBoundary>
+            
         </article>
     </main>
 </div>

@@ -24,7 +24,7 @@ namespace InventoryManager.Models.Services
             };
 
             products = new List<Product>{
-                new Product { ProductId = "P001", ProductName = "Apple", ProductPrice = 2.5, ProductCategoryId = "C001", SupplierId = "S001" },
+                new Product { ProductId = "P001", ProductName = "Apple", ProductPrice = 2.5, ProductCategoryId = "C001", SupplierId = "S001",ImageUrl = "C:\\Users\\Khan_Aja\\source\\repos\\InventoryManager\\InventoryManager\\wwwroot\\Images\\Apple.jfif" },
                 new Product { ProductId = "P002", ProductName = "Banana", ProductPrice = 1.8, ProductCategoryId = "C001", SupplierId = "S002" },
                 new Product { ProductId = "P003", ProductName = "Carrot", ProductPrice = 0.5, ProductCategoryId = "C002", SupplierId = "S003" },
                 new Product { ProductId = "P004", ProductName = "Broccoli", ProductPrice = 1.2, ProductCategoryId = "C002", SupplierId = "S004" },

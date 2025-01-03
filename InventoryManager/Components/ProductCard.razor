@@ -1,10 +1,11 @@
 ﻿
-
+@rendermode InteractiveServer
+@using InventoryManager.Components; 
 <div class="card" style="width: 18rem;">
     <img src="path-to-product-image.jpg" class="card-img-top" alt="Product Image">
     <div class="card-body">
-        <h5 class="card-title">Product Name</h5>
-        <p class="card-text">Short description or tagline about the product.</p>
-        <a href="product-details-page.html" class="btn btn-primary">Details</a>
+        <h5 class="card-title">@product.ProductName</h5>
+        <p class="card-text">@product.Description</p>
+        <a href="/productoverview/@product.ProductId" class="btn btn-primary">Details</a>
     </div>
 </div>

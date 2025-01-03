@@ -1,6 +1,19 @@
 ﻿@page "/productoverview/{ProductId}";
 
-<h3>Product Details of @ProductSelected.ProductName</h3>
-<h1>product name : @ProductSelected.ProductName</h1>
-<h1>product supplier ID : @ProductSelected.SupplierId</h1>
-<h1>product category : @ProductCategory.CategoryName</h1>
+
+        <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+            <div class="card" style="width: 30rem; border: 1px solid #6f42c1; background-color: #f8f0ff;">
+                <img src="@ProductSelected.ImageUrl" class="card-img-top" alt="Product Image" style="height: 250px; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title" style="color: #6f42c1;">@ProductSelected.ProductName</h5>
+                    <p class="card-text"><strong>Product ID:</strong> @ProductSelected.ProductId</p>
+                    <p class="card-text"><strong>Description:</strong> @ProductSelected.Description</p>
+                    <p class="card-text"><strong>Supplier ID:</strong> @SupplierSelected.SupplierName</p>
+                    <p class="card-text"><strong>Product Category:</strong> @ProductCategory.CategoryName</p>
+                    <p class="card-text"><strong>Price:</strong> @ProductSelected.ProductPrice</p>
+                    <p class="card-text"><strong>Quantity Available:</strong> @ProductSelected.ProductQuantity</p>
+                    <!-- <a href="#" class="btn" style="background-color: #6f42c1; color: white;">Details</a> -->
+                </div>
+            </div>
+        </div>
+
