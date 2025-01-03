@@ -7,7 +7,7 @@ namespace InventoryManager.Components.Pages
         List<Product> Products { get; set; } = default!;
         protected override async Task OnInitializedAsync()
         {
-            await Task.Delay(5000);
+            await Task.Delay(1000);
             DataInitializationService.InitializeDemoData();
             Products = DataInitializationService.products;
             
