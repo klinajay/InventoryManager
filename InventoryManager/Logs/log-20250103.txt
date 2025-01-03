@@ -1,0 +1,179 @@
+2025-01-03 15:32:03.355 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 15:32:03.420 +05:30 [INF] HTTP GET / responded 200 in 68.0222 ms
+2025-01-03 15:32:03.451 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 304 in 14.9314 ms
+2025-01-03 15:32:03.451 +05:30 [INF] HTTP GET /app.css responded 304 in 14.9355 ms
+2025-01-03 15:32:03.451 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 4.9184 ms
+2025-01-03 15:32:06.677 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 15:32:06.714 +05:30 [INF] HTTP GET /productoverview responded 200 in 1090.9374 ms
+2025-01-03 15:32:06.727 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.2801 ms
+2025-01-03 15:32:06.733 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8605 ms
+2025-01-03 15:32:06.743 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.2684 ms
+2025-01-03 15:32:06.820 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.5269 ms
+2025-01-03 15:32:09.285 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 8.4176 ms
+2025-01-03 15:32:11.326 +05:30 [INF] HTTP GET /_blazor responded 101 in 4579.1656 ms
+2025-01-03 15:32:11.329 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 11.7232 ms
+2025-01-03 15:38:50.026 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 15:38:50.089 +05:30 [INF] HTTP GET / responded 200 in 65.4990 ms
+2025-01-03 15:38:50.106 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.8958 ms
+2025-01-03 15:38:53.650 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 15:38:53.680 +05:30 [INF] HTTP GET /productoverview responded 200 in 1213.5586 ms
+2025-01-03 15:38:53.688 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.2034 ms
+2025-01-03 15:38:53.694 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8079 ms
+2025-01-03 15:38:53.704 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1742 ms
+2025-01-03 15:38:53.782 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.5788 ms
+2025-01-03 15:41:19.010 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 15:41:19.073 +05:30 [INF] HTTP GET / responded 200 in 65.6904 ms
+2025-01-03 15:41:19.093 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.1016 ms
+2025-01-03 15:41:27.173 +05:30 [INF] HTTP GET /P015 responded 404 in 0.1237 ms
+2025-01-03 15:41:30.840 +05:30 [INF] HTTP GET /P015 responded 404 in 0.0287 ms
+2025-01-03 15:41:31.193 +05:30 [INF] HTTP GET /P015 responded 404 in 0.0328 ms
+2025-01-03 15:41:31.470 +05:30 [INF] HTTP GET /P015 responded 404 in 0.0305 ms
+2025-01-03 15:41:31.726 +05:30 [INF] HTTP GET /P015 responded 404 in 0.0394 ms
+2025-01-03 16:25:29.899 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 16:25:29.962 +05:30 [INF] HTTP GET / responded 200 in 66.1677 ms
+2025-01-03 16:25:29.977 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 304 in 2.1998 ms
+2025-01-03 16:25:29.977 +05:30 [INF] HTTP GET /app.css responded 304 in 2.1882 ms
+2025-01-03 16:25:29.986 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.9241 ms
+2025-01-03 16:25:32.584 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 16:25:32.629 +05:30 [INF] HTTP GET /productoverview responded 200 in 1223.8971 ms
+2025-01-03 16:25:32.640 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.2624 ms
+2025-01-03 16:25:32.646 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.1408 ms
+2025-01-03 16:25:32.657 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9029 ms
+2025-01-03 16:25:32.736 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.4181 ms
+2025-01-03 16:25:33.833 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 4.9650 ms
+2025-01-03 16:25:35.875 +05:30 [INF] HTTP GET /_blazor responded 101 in 3213.8220 ms
+2025-01-03 16:25:35.879 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 12.5705 ms
+2025-01-03 16:26:31.100 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 16:26:31.163 +05:30 [INF] HTTP GET / responded 200 in 64.9152 ms
+2025-01-03 16:26:31.184 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 6.2402 ms
+2025-01-03 16:26:34.158 +05:30 [INF] HTTP GET /categories responded 404 in 0.1866 ms
+2025-01-03 16:26:35.671 +05:30 [INF] HTTP GET / responded 200 in 5.8221 ms
+2025-01-03 16:26:37.881 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 16:26:37.933 +05:30 [INF] HTTP GET /productoverview responded 200 in 1090.0576 ms
+2025-01-03 16:26:37.941 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.3215 ms
+2025-01-03 16:26:37.942 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.1243 ms
+2025-01-03 16:26:37.955 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 5.9931 ms
+2025-01-03 16:26:38.070 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.3485 ms
+2025-01-03 16:26:39.021 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 4.3602 ms
+2025-01-03 16:26:41.053 +05:30 [INF] HTTP GET /_blazor responded 101 in 3093.6473 ms
+2025-01-03 16:26:41.057 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 9.1277 ms
+2025-01-03 16:37:40.246 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 16:37:40.310 +05:30 [INF] HTTP GET / responded 200 in 66.5240 ms
+2025-01-03 16:37:40.333 +05:30 [INF] HTTP GET /bootstrap/bootstrap.min.css responded 304 in 1.8446 ms
+2025-01-03 16:37:40.333 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.7432 ms
+2025-01-03 16:37:43.225 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 16:37:43.264 +05:30 [INF] HTTP GET /productoverview responded 200 in 1219.9745 ms
+2025-01-03 16:37:43.272 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.2455 ms
+2025-01-03 16:37:43.279 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.2219 ms
+2025-01-03 16:37:43.289 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9169 ms
+2025-01-03 16:37:43.366 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.3113 ms
+2025-01-03 16:37:53.565 +05:30 [ERR] Product not found.
+System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at InventoryManager.Components.Pages.ProductDetails.OnInitialized() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 20
+2025-01-03 16:38:23.712 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 16:38:23.774 +05:30 [INF] HTTP GET / responded 200 in 64.5164 ms
+2025-01-03 16:38:23.810 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 10.3038 ms
+2025-01-03 16:38:25.939 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 16:38:25.971 +05:30 [INF] HTTP GET /productoverview responded 200 in 1056.2232 ms
+2025-01-03 16:38:25.979 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.1795 ms
+2025-01-03 16:38:25.985 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9030 ms
+2025-01-03 16:38:25.995 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0728 ms
+2025-01-03 16:38:26.072 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.7710 ms
+2025-01-03 16:38:32.821 +05:30 [ERR] Product not found.
+System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at InventoryManager.Components.Pages.ProductDetails.OnInitialized() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 20
+2025-01-03 16:48:59.213 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 16:48:59.288 +05:30 [INF] HTTP GET / responded 200 in 77.1034 ms
+2025-01-03 16:48:59.311 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.0244 ms
+2025-01-03 16:49:01.844 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 16:49:01.874 +05:30 [INF] HTTP GET /productoverview responded 200 in 1072.9126 ms
+2025-01-03 16:49:01.883 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.1708 ms
+2025-01-03 16:49:01.889 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.3015 ms
+2025-01-03 16:49:01.901 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.4406 ms
+2025-01-03 16:49:01.978 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.3569 ms
+2025-01-03 16:49:08.653 +05:30 [ERR] Product not found.
+System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at InventoryManager.Components.Pages.ProductDetails.OnInitialized() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 20
+2025-01-03 16:49:08.734 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-03 16:49:08.735 +05:30 [INF] HTTP GET /productoverview/P0015 responded 200 in 304.2920 ms
+2025-01-03 16:49:08.747 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.2624 ms
+2025-01-03 16:49:08.753 +05:30 [INF] HTTP GET /_blazor responded 101 in 6847.3139 ms
+2025-01-03 16:49:08.756 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 13.1779 ms
+2025-01-03 16:49:13.559 +05:30 [ERR] Product not found.
+System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at InventoryManager.Components.Pages.ProductDetails.OnInitialized() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 20
+2025-01-03 16:49:13.561 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-03 16:49:13.563 +05:30 [INF] HTTP GET /productoverview/P0015 responded 200 in 71.4143 ms
+2025-01-03 16:49:13.571 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.1047 ms
+2025-01-03 16:49:13.590 +05:30 [INF] HTTP GET /favicon.png responded 304 in 0.5165 ms
+2025-01-03 16:49:15.849 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 16:49:15.856 +05:30 [INF] HTTP GET /productoverview responded 200 in 1019.0644 ms
+2025-01-03 16:49:15.895 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1241 ms
+2025-01-03 16:49:15.901 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1295 ms
+2025-01-03 16:49:15.916 +05:30 [INF] HTTP GET /path-to-product-image.jpg responded 404 in 0.5547 ms
+2025-01-03 16:56:39.927 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 16:56:39.992 +05:30 [INF] HTTP GET / responded 200 in 67.5579 ms
+2025-01-03 16:56:40.004 +05:30 [INF] HTTP GET /app.css responded 304 in 1.7092 ms
+2025-01-03 16:56:40.009 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 304 in 2.0443 ms
+2025-01-03 16:56:40.012 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.0222 ms
+2025-01-03 16:56:42.544 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 16:56:42.583 +05:30 [INF] HTTP GET /productoverview responded 200 in 1068.8858 ms
+2025-01-03 16:56:42.593 +05:30 [INF] HTTP GET /wwwroot/Images/Apple.jfif responded 404 in 0.2879 ms
+2025-01-03 16:56:42.599 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.2500 ms
+2025-01-03 16:56:42.610 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9493 ms
+2025-01-03 16:56:42.687 +05:30 [INF] HTTP GET /wwwroot/Images/Apple.jfif responded 404 in 0.5180 ms
+2025-01-03 16:56:48.602 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.2248 ms
+2025-01-03 16:56:48.611 +05:30 [INF] HTTP GET /wwwroot/Images/Apple.jfif responded 404 in 0.1980 ms
+2025-01-03 16:56:50.638 +05:30 [INF] HTTP GET /_blazor responded 101 in 8024.0322 ms
+2025-01-03 16:56:50.641 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 13.5862 ms
+2025-01-03 16:56:53.664 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 16:56:53.671 +05:30 [INF] HTTP GET /productoverview responded 200 in 1017.6778 ms
+2025-01-03 16:56:53.683 +05:30 [INF] HTTP GET /wwwroot/Images/Apple.jfif responded 404 in 0.2294 ms
+2025-01-03 16:56:53.683 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2333 ms
+2025-01-03 16:56:53.703 +05:30 [INF] HTTP GET /wwwroot/Images/Apple.jfif responded 404 in 0.6735 ms
+2025-01-03 16:56:55.122 +05:30 [INF] HTTP GET /productoverview/P006 responded 200 in 0.9797 ms
+2025-01-03 16:56:57.144 +05:30 [INF] HTTP GET /_blazor responded 101 in 3454.9726 ms
+2025-01-03 16:56:57.144 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 1.7011 ms
+2025-01-03 16:57:26.429 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 16:57:26.495 +05:30 [INF] HTTP GET / responded 200 in 68.6766 ms
+2025-01-03 16:57:26.517 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.3124 ms
+2025-01-03 16:57:28.618 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 16:57:28.650 +05:30 [INF] HTTP GET /productoverview responded 200 in 1064.8594 ms
+2025-01-03 16:57:28.660 +05:30 [INF] HTTP GET /InventoryManager/wwwroot/Images/Apple.jfif responded 404 in 0.2013 ms
+2025-01-03 16:57:28.665 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8198 ms
+2025-01-03 16:57:28.676 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.8729 ms
+2025-01-03 16:57:28.752 +05:30 [INF] HTTP GET /InventoryManager/wwwroot/Images/Apple.jfif responded 404 in 0.4196 ms
+2025-01-03 16:57:29.785 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 5.9456 ms
+2025-01-03 16:57:29.794 +05:30 [INF] HTTP GET /InventoryManager/wwwroot/Images/Apple.jfif responded 404 in 0.1142 ms
+2025-01-03 16:57:31.808 +05:30 [INF] HTTP GET /_blazor responded 101 in 3128.0361 ms
+2025-01-03 16:57:31.811 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 9.2549 ms
+2025-01-03 16:59:06.300 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 16:59:06.364 +05:30 [INF] HTTP GET / responded 200 in 66.1980 ms
+2025-01-03 16:59:06.380 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.0460 ms
+2025-01-03 16:59:08.955 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-03 16:59:08.994 +05:30 [INF] HTTP GET /productoverview responded 200 in 1065.6828 ms
+2025-01-03 16:59:09.009 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.3274 ms
+2025-01-03 16:59:09.011 +05:30 [INF] HTTP GET /Images/Apple.jfif responded 200 in 7.5322 ms
+2025-01-03 16:59:09.020 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.6808 ms
+2025-01-03 16:59:15.766 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 6.1042 ms
+2025-01-03 16:59:17.813 +05:30 [INF] HTTP GET /_blazor responded 101 in 8789.4264 ms
+2025-01-03 16:59:17.817 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 12.9890 ms
+2025-01-03 17:48:07.402 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-03 17:48:07.463 +05:30 [INF] HTTP GET / responded 200 in 63.6640 ms
+2025-01-03 17:48:07.499 +05:30 [INF] HTTP GET /app.css responded 304 in 13.0159 ms
+2025-01-03 17:48:07.499 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 304 in 13.0160 ms
+2025-01-03 17:48:07.499 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 10.1283 ms

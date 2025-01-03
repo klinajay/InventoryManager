@@ -24,12 +24,12 @@ namespace InventoryManager.Models.Services
             };
 
             products = new List<Product>{
-                new Product { ProductId = "P001", ProductName = "Apple", ProductPrice = 2.5, ProductCategoryId = "C001", SupplierId = "S001",ImageUrl = "C:\\Users\\Khan_Aja\\source\\repos\\InventoryManager\\InventoryManager\\wwwroot\\Images\\Apple.jfif" },
+                new Product { ProductId = "P001", ProductName = "Apple", ProductPrice = 2.5, ProductCategoryId = "C001", SupplierId = "S001",ImageUrl = "Images\\Apple.jfif" },
                 new Product { ProductId = "P002", ProductName = "Banana", ProductPrice = 1.8, ProductCategoryId = "C001", SupplierId = "S002" },
                 new Product { ProductId = "P003", ProductName = "Carrot", ProductPrice = 0.5, ProductCategoryId = "C002", SupplierId = "S003" },
                 new Product { ProductId = "P004", ProductName = "Broccoli", ProductPrice = 1.2, ProductCategoryId = "C002", SupplierId = "S004" },
                 new Product { ProductId = "P005", ProductName = "Milk", ProductPrice = 1.0, ProductCategoryId = "C003", SupplierId = "S005" },
-                new Product { ProductId = "P006", ProductName = "Cheese", ProductPrice = 3.0, ProductCategoryId = "C003", SupplierId = "S006" },
+                new Product { ProductId = "P006", ProductName = "Cheese", ProductPrice = 3.0, ProductCategoryId = "C003", SupplierId = "S006",ImageUrl = "Images\\Cheese1.jfif" },
                 new Product { ProductId = "P007", ProductName = "Soda", ProductPrice = 1.5, ProductCategoryId = "C004", SupplierId = "S007" },
                 new Product { ProductId = "P008", ProductName = "Orange Juice", ProductPrice = 2.0, ProductCategoryId = "C004", SupplierId = "S008" },
                 new Product { ProductId = "P009", ProductName = "Chips", ProductPrice = 1.0, ProductCategoryId = "C005", SupplierId = "S009" },
