@@ -31,6 +31,13 @@ namespace InventoryManager.Repositories
                 return 0; 
             }
         }
+        public async Task<Product> GetProductById(string Id)
+        {
+            Product selectedProduct = default!;
+            
+            selectedProduct = await _appDbContext.Products.FirstOrDefaultAsync(product => product.ProductId == Id);
+            return selectedProduct; 
+        }
         public void Dispose() {
             _appDbContext.Dispose();
         }   

@@ -321,3 +321,21 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 2025-01-06 18:16:28.905 +05:30 [INF] HTTP GET /app.css responded 200 in 21.1922 ms
 2025-01-06 18:16:28.910 +05:30 [INF] HTTP GET /favicon.png responded 200 in 1.3228 ms
 2025-01-06 18:16:28.914 +05:30 [INF] HTTP GET /favicon.png responded 200 in 1.2741 ms
+2025-01-06 19:38:20.460 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-06 19:38:22.102 +05:30 [INF] HTTP GET / responded 200 in 1644.8002 ms
+2025-01-06 19:38:22.223 +05:30 [INF] HTTP GET /app.css responded 200 in 65.8016 ms
+2025-01-06 19:38:22.224 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 200 in 61.9801 ms
+2025-01-06 19:38:22.232 +05:30 [INF] HTTP GET /bootstrap/bootstrap.min.css responded 200 in 74.9585 ms
+2025-01-06 19:38:22.240 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 200 in 78.7504 ms
+2025-01-06 19:38:22.356 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 2.0087 ms
+2025-01-06 19:38:22.404 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 15.8036 ms
+2025-01-06 19:38:22.409 +05:30 [INF] HTTP GET /favicon.png responded 200 in 19.5951 ms
+2025-01-06 19:38:30.828 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-06 19:38:30.846 +05:30 [INF] HTTP GET /productoverview responded 200 in 155.9061 ms
+2025-01-06 19:38:30.858 +05:30 [INF] HTTP GET /Images/Cheese1.jfif responded 200 in 10.5202 ms
+2025-01-06 19:38:30.858 +05:30 [INF] HTTP GET /Images/Apple.jfif responded 200 in 11.3768 ms
+2025-01-06 19:38:33.839 +05:30 [ERR] Product not found.
+System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at InventoryManager.Components.Pages.ProductDetails.OnInitialized() in C:\Users\ajay\Source\Repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 20

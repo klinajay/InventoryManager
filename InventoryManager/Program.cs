@@ -16,6 +16,10 @@ builder.Services.AddDbContextFactory<AppDbContext>(options => options.UseSqlServ
 builder.Host.UseSerilog((context , configuration) => configuration.ReadFrom.Configuration(context.Configuration));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductRepositoryService, ProductRepositoryService>();
+builder.Services.AddScoped<IProductCategoryRepository, ProductCategoryRepository>();
+builder.Services.AddScoped<IProductCategoryRepositoryService, ProductCategoryRepositoryService>();
+builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
+builder.Services.AddScoped<SupplierRepositoryService, SupplierRepositoryService>();
 builder.Services.AddScoped<ApplicationState>();
 var app = builder.Build();
 
