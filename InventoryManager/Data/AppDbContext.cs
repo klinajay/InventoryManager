@@ -10,7 +10,7 @@ namespace InventoryManager.Data
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategory> Categories { get; set; }
-        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Supplier> ProductCategories { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
