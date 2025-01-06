@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
-using InventoryManager.Models;
 using InventoryManager.Models.Services;
 using Serilog;
+using InventoryManager.Models.Domain;
 namespace InventoryManager.Components.Pages
 {
     public partial class ProductDetails
@@ -18,7 +18,7 @@ namespace InventoryManager.Components.Pages
             try
             {
                 ProductSelected = DataInitializationService.products.Single(product => product.ProductId == ProductId);
-                ProductCategory = DataInitializationService.productCategories.Single(category => category.CategoryId == ProductSelected.ProductCategoryId);
+                ProductCategory = DataInitializationService.productCategories.Single(category => category.ProductCategoryId == ProductSelected.ProductCategoryId);
                 SupplierSelected = DataInitializationService.suppliers.Single(supplier => supplier.SupplierId == ProductSelected.SupplierId);
 
             }

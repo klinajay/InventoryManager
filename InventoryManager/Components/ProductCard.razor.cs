@@ -1,5 +1,5 @@
 ﻿using System.Net.NetworkInformation;
-using InventoryManager.Models;
+using InventoryManager.Models.Domain;
 using Microsoft.AspNetCore.Components;
 
 namespace InventoryManager.Components

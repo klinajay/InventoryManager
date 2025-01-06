@@ -1,4 +1,4 @@
-﻿using InventoryManager.Models;
+﻿using InventoryManager.Models.Domain;
 using InventoryManager.Models.Services;
 using Serilog;
 namespace InventoryManager.Components.Pages

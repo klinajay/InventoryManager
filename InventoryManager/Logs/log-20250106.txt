@@ -1,0 +1,18 @@
+2025-01-06 10:22:18.555 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-06 10:22:18.632 +05:30 [INF] HTTP GET / responded 200 in 79.3825 ms
+2025-01-06 10:22:18.658 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 304 in 5.2578 ms
+2025-01-06 10:22:18.658 +05:30 [INF] HTTP GET /bootstrap/bootstrap.min.css responded 304 in 5.2602 ms
+2025-01-06 10:22:18.658 +05:30 [INF] HTTP GET /app.css responded 304 in 5.2602 ms
+2025-01-06 10:22:18.659 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.3013 ms
+2025-01-06 10:22:22.213 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-06 10:22:22.263 +05:30 [INF] HTTP GET /productoverview responded 200 in 1100.5618 ms
+2025-01-06 10:22:22.273 +05:30 [INF] HTTP GET /Images/Apple.jfif responded 304 in 0.2722 ms
+2025-01-06 10:22:22.276 +05:30 [INF] HTTP GET /Images/Cheese1.jfif responded 200 in 3.3924 ms
+2025-01-06 10:22:22.280 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.0966 ms
+2025-01-06 10:22:22.292 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.7035 ms
+2025-01-06 10:22:26.309 +05:30 [INF] HTTP GET /productoverview/P006 responded 200 in 5.5798 ms
+2025-01-06 10:22:28.353 +05:30 [INF] HTTP GET /_blazor responded 101 in 6056.6513 ms
+2025-01-06 10:22:28.356 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 12.4698 ms
+2025-01-06 10:22:32.141 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
+2025-01-06 10:22:32.148 +05:30 [INF] HTTP GET /productoverview responded 200 in 1022.9695 ms
+2025-01-06 10:22:32.166 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1662 ms

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using InventoryManager.Models.Domain;
 
 namespace InventoryManager.Models.Services
 {
@@ -16,11 +17,11 @@ namespace InventoryManager.Models.Services
         {
             productCategories = new List<ProductCategory>
 {
-                new ProductCategory { CategoryId = "C001", CategoryName = "Fruit", Description = "Fresh fruits" },
-                new ProductCategory { CategoryId = "C002", CategoryName = "Vegetables", Description = "Fresh vegetables" },
-                new ProductCategory { CategoryId = "C003", CategoryName = "Dairy", Description = "Dairy products" },
-                new ProductCategory { CategoryId = "C004", CategoryName = "Beverages", Description = "Drinks and beverages" },
-                new ProductCategory { CategoryId = "C005", CategoryName = "Snacks", Description = "Packaged snacks" }
+                new ProductCategory { ProductCategoryId = "C001", CategoryName = "Fruit", Description = "Fresh fruits" },
+                new ProductCategory { ProductCategoryId = "C002", CategoryName = "Vegetables", Description = "Fresh vegetables" },
+                new ProductCategory { ProductCategoryId = "C003", CategoryName = "Dairy", Description = "Dairy products" },
+                new ProductCategory { ProductCategoryId = "C004", CategoryName = "Beverages", Description = "Drinks and beverages" },
+                new ProductCategory { ProductCategoryId = "C005", CategoryName = "Snacks", Description = "Packaged snacks" }
             };
 
             products = new List<Product>{
