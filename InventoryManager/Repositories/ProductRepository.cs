@@ -1,7 +1,9 @@
-﻿using InventoryManager.Contracts.Repositories;
+﻿using System.Runtime.CompilerServices;
+using InventoryManager.Contracts.Repositories;
 using InventoryManager.Data;
 using InventoryManager.Models.Domain;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace InventoryManager.Repositories
 {
@@ -15,6 +17,19 @@ namespace InventoryManager.Repositories
         public async Task<IEnumerable<Product>> GetAllProducts()
         {
             return await _appDbContext.Products.Select(p => p).ToListAsync();
+        }
+        public async Task<int> GetTotalProducts()
+        {
+            try
+            {
+                int totalProducts = await _appDbContext.Products.CountAsync();
+                return totalProducts;
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Something went wrong.",ex);
+                return 0; 
+            }
         }
         public void Dispose() {
             _appDbContext.Dispose();

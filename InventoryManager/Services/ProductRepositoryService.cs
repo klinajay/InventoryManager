@@ -16,5 +16,9 @@ namespace InventoryManager.Services
         {
             return await _productRepository.GetAllProducts();
         }
+        public async Task<int> GetTotalProducts()
+        {
+            return await _productRepository.GetTotalProducts();
+        }
     }
 }

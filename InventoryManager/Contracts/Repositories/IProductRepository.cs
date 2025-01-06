@@ -8,5 +8,6 @@ namespace InventoryManager.Contracts.Repositories
         
 
         public  Task<IEnumerable<Product>>  GetAllProducts();
+        public Task<int> GetTotalProducts();
     }
 }
