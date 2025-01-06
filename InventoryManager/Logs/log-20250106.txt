@@ -16,3 +16,28 @@
 2025-01-06 10:22:32.141 +05:30 [INF] Products initialized System.Collections.Generic.List`1[InventoryManager.Models.Product]
 2025-01-06 10:22:32.148 +05:30 [INF] HTTP GET /productoverview responded 200 in 1022.9695 ms
 2025-01-06 10:22:32.166 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1662 ms
+2025-01-06 14:09:04.275 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-06 14:09:04.342 +05:30 [INF] HTTP GET / responded 200 in 70.6157 ms
+2025-01-06 14:09:04.361 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.0853 ms
+2025-01-06 14:09:06.433 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Services.ProductRepositoryService.GetAllProducts() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductRepositoryService.cs:line 13
+   at InventoryManager.Components.Pages.ProductOverview.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductOverview.razor.cs:line 15
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+2025-01-06 14:09:06.445 +05:30 [INF] HTTP GET /productoverview responded 200 in 256.7016 ms
+2025-01-06 14:16:11.852 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-06 14:16:11.917 +05:30 [INF] HTTP GET / responded 200 in 68.0196 ms
+2025-01-06 14:16:11.943 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 6.2793 ms
+2025-01-06 14:16:14.042 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Services.ProductRepositoryService.GetAllProducts() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductRepositoryService.cs:line 13
+   at InventoryManager.Components.Pages.ProductOverview.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductOverview.razor.cs:line 19
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+2025-01-06 14:16:14.055 +05:30 [INF] HTTP GET /productoverview responded 200 in 401.3601 ms
+2025-01-06 14:20:07.493 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-06 14:20:07.562 +05:30 [INF] HTTP GET / responded 200 in 71.2546 ms
+2025-01-06 14:20:07.580 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.1249 ms
+2025-01-06 14:20:09.543 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-06 14:20:09.574 +05:30 [INF] HTTP GET /productoverview responded 200 in 659.4993 ms
+2025-01-06 14:20:09.589 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9587 ms
+2025-01-06 14:20:09.602 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.5104 ms

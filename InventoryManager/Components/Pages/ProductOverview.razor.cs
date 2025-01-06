@@ -1,18 +1,24 @@
-﻿using InventoryManager.Models.Domain;
+﻿using InventoryManager.Contracts.Repositories;
+using InventoryManager.Contracts.Services;
+using InventoryManager.Models.Domain;
 using InventoryManager.Models.Services;
+using InventoryManager.Services;
+using Microsoft.AspNetCore.Components;
 using Serilog;
 namespace InventoryManager.Components.Pages
 {
     public partial class ProductOverview
     {
-        List<Product> Products { get; set; } = default!;
+        public IEnumerable<Product> Products { get; set; } = default!;
+        [Inject]
+        public IProductRepositoryService? ProductService { get; set; }
         protected override async Task OnInitializedAsync()
         {
-            //Console.WriteLine("Inside the ProductOverview");
-            await Task.Delay(1000);
-            DataInitializationService.InitializeDemoData();
-            Products = DataInitializationService.products;
-            Log.Information($"Products initialized {Products}");
+            
+            
+            Products = await ProductService.GetAllProducts();
+            
+            Log.Information($"Products found {Products}");
         }
     }
 }
