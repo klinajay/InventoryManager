@@ -24,9 +24,10 @@ namespace InventoryManager.Components.Pages
         {
             try
             {
-                ProductSelected = await ProductRepositoryService.GetProductById();
-                ProductCategory = await ProductCategoryRepositoryService.GetAllCategories();
-                SupplierSelected = await SupplierRepositoryService.GetAllSuppliers();
+                ProductSelected = await ProductRepositoryService.GetProductById(ProductId);
+                //ProductCategory = await ProductCategoryRepositoryService.GetAllCategories();
+                //SupplierSelected = await SupplierRepositoryService.GetAllSuppliers();
+            }
             catch (Exception e)
             {
                 Log.Error(e, "Product not found.");

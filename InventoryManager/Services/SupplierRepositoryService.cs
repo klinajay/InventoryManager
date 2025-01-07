@@ -1,9 +1,10 @@
 ﻿using InventoryManager.Contracts.Repositories;
+using InventoryManager.Contracts.Services;
 using InventoryManager.Models.Domain;
 
 namespace InventoryManager.Services
 {
-    public class SupplierRepositoryService : ISupplierRepository
+    public class SupplierRepositoryService : ISupplierRepositoryService
     {
         private readonly ISupplierRepository _supplierRepository;
         public SupplierRepositoryService(ISupplierRepository supplierRepository)
@@ -18,6 +19,10 @@ namespace InventoryManager.Services
         public async Task<int> GetTotalSuppliers()
         {
             return await _supplierRepository.GetTotalSuppliers();
+        }
+        public async Task<Supplier> GetSupplierById(String Id)
+        {
+            return _supplierRepository.GetSupplierById(Id);
         }
     }
 }

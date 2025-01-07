@@ -17,14 +17,14 @@ namespace InventoryManager.Repositories
 
         public async Task<IEnumerable<Supplier>> GetAllSuppliers()
         {
-            IEnumerable<Supplier> suppliers  = await _appDbContext.ProductCategories.Select(supplier => supplier).ToListAsync();
+            IEnumerable<Supplier> suppliers = default!;
             return suppliers;
         }
         public async Task<int> GetTotalSuppliers()
         {
             try
             {
-                int totalSuppliers = await _appDbContext.ProductCategories.CountAsync();
+                int totalSuppliers = default;
                 return totalSuppliers;
             }
             catch (Exception ex)
@@ -32,6 +32,13 @@ namespace InventoryManager.Repositories
                 Log.Error("Something went wrong.", ex);
                 return 0;
             }
+        }
+        public async Task<Supplier> GetSupplierById(string Id)
+        {
+            Supplier selectedSupplier = default!;
+
+            //selectedSupplier = await _appDbContext.Suppliers.;
+            return selectedSupplier;
         }
         public void Dispose()
         {

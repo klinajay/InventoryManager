@@ -6,5 +6,6 @@ namespace InventoryManager.Contracts.Repositories
     {
         public Task<IEnumerable<Supplier>> GetAllSuppliers();
         public Task<int> GetTotalSuppliers();
+        public Task<Supplier> GetSuppliersById(string Id);
     }
 }
