@@ -36,6 +36,7 @@ namespace InventoryManager.Repositories
             Product selectedProduct = default!;
             
             selectedProduct = await _appDbContext.Products.FirstOrDefaultAsync(product => product.ProductId == Id);
+            
             return selectedProduct; 
         }
         public void Dispose() {

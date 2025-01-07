@@ -5,7 +5,6 @@ namespace InventoryManager.Contracts.Repositories
 {
     public interface IProductRepository
     {
-        
 
         public  Task<IEnumerable<Product>>  GetAllProducts();
         public Task<int> GetTotalProducts();

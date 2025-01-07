@@ -1,5 +1,5 @@
 ﻿@page "/productoverview/{ProductId}";
-
+@inject NavigationManager NavigationManager
 
         <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
             <div class="card" style="width: 30rem; border: 1px solid #6f42c1; background-color: #f8f0ff;">
@@ -12,7 +12,8 @@
                     <p class="card-text"><strong>Product Category:</strong> @ProductCategory.CategoryName</p>
                     <p class="card-text"><strong>Price:</strong> @ProductSelected.ProductPrice</p>
                     <p class="card-text"><strong>Quantity Available:</strong> @ProductSelected.ProductQuantity</p>
-                    <!-- <a href="#" class="btn" style="background-color: #6f42c1; color: white;">Details</a> -->
+            <a href="/updateproduct/@ProductId" class="btn" style="background-color: #6f42c1; color: white;" onclick="NavigateToUpdate">Update Product</a>
+                        @* <a href="#" class="btn" style="background-color: #6f42c1; color: white;">Cancel</a> *@
                 </div>
             </div>
         </div>

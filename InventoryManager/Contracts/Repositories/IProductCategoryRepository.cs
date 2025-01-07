@@ -6,5 +6,6 @@ namespace InventoryManager.Contracts.Repositories
     {
         public Task<IEnumerable<ProductCategory>> GetAllCategories();
         public Task<int> GetTotalCategories();
+        public Task<ProductCategory> GetProductCategoriesById(string Id);
     }
 }

@@ -11,7 +11,8 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
+    .AddInteractiveServerComponents()
+    .AddInteractiveWebAssemblyComponents();
 builder.Services.AddDbContextFactory<AppDbContext>(options => options.UseSqlServer(builder.Configuration["ConnectionStrings:DefaultConnection"]));
 builder.Host.UseSerilog((context , configuration) => configuration.ReadFrom.Configuration(context.Configuration));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();

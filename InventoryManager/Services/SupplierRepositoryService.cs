@@ -22,7 +22,10 @@ namespace InventoryManager.Services
         }
         public async Task<Supplier> GetSupplierById(String Id)
         {
-            return _supplierRepository.GetSupplierById(Id);
+            Supplier supplierSellected = default!;
+            supplierSellected = await _supplierRepository.GetSupplierById(Id);
+            return supplierSellected;
+            //return _supplierRepository.GetSupplierById(Id);
         }
     }
 }

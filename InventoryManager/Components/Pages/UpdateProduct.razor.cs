@@ -1,13 +1,14 @@
-﻿using Microsoft.AspNetCore.Components;
-using InventoryManager.Models.Services;
-using Serilog;
+﻿using InventoryManager.Contracts.Services;
 using InventoryManager.Models.Domain;
-using InventoryManager.Contracts.Services;
+using Microsoft.AspNetCore.Components;
+using Serilog;
+
 
 namespace InventoryManager.Components.Pages
 {
-    public partial class ProductDetails
+    public partial class UpdateProduct
     {
+
         [Parameter]
         public string ProductId { get; set; } = string.Empty;
 
@@ -22,11 +23,6 @@ namespace InventoryManager.Components.Pages
         public ProductCategory ProductCategory { get; set; } = new ProductCategory();
         public Supplier SupplierSelected { get; set; } = new Supplier();
 
-        public void NavigateToUpdate()
-        {
-            Console.WriteLine("Inside the Navigation.");
-            NavigationManager.NavigateTo($"/updateproduct/{ProductId}");
-        }
         protected async override Task OnInitializedAsync()
         {
             try
@@ -62,6 +58,27 @@ namespace InventoryManager.Components.Pages
             {
                 Log.Error(e, "Error occurred while loading product details.");
             }
+        }
+    
+    
+    public async Task HandleValidSubmit() {
+            try
+            {
+                // Logic to save or update the product
+                //await ProductRepositoryService.UpdateProduct(ProductSelected);
+
+                // Navigate back to the product list or show a success message
+                NavigationManager.NavigateTo("/products");
+            }
+            catch (Exception ex)
+            {
+                // Handle errors (optional)
+                Console.WriteLine($"Error updating product: {ex.Message}");
+            }
+        }
+        public void Cancel()
+        {
+            NavigationManager.NavigateTo("/productoverview");
         }
     }
 }

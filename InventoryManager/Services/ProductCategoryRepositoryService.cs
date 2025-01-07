@@ -20,5 +20,9 @@ namespace InventoryManager.Services
         {
             return await _productCategoryRepository.GetTotalCategories();
         }
+        public async Task<ProductCategory> GetProductCategoriesById(string Id)
+        {
+            return await _productCategoryRepository.GetProductCategoriesById(Id);
+        }
     }
 }

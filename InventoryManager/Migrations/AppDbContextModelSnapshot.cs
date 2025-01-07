@@ -52,7 +52,7 @@ namespace InventoryManager.Migrations
 
                     b.HasKey("ProductId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
 
                     b.HasData(
                         new
@@ -164,7 +164,7 @@ namespace InventoryManager.Migrations
 
                     b.HasKey("ProductCategoryId");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
 
                     b.HasData(
                         new
@@ -218,7 +218,7 @@ namespace InventoryManager.Migrations
 
                     b.HasKey("SupplierId");
 
-                    b.ToTable("ProductCategories");
+                    b.ToTable("ProductCategories", (string)null);
 
                     b.HasData(
                         new

@@ -1,0 +1,825 @@
+2025-01-07 09:40:54.457 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 09:40:55.331 +05:30 [INF] HTTP GET / responded 200 in 876.0549 ms
+2025-01-07 09:40:55.443 +05:30 [INF] HTTP GET /app.css responded 200 in 16.1566 ms
+2025-01-07 09:40:55.445 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 200 in 17.9803 ms
+2025-01-07 09:40:55.456 +05:30 [INF] HTTP GET /bootstrap/bootstrap.min.css responded 200 in 28.8985 ms
+2025-01-07 09:40:55.456 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 200 in 30.8091 ms
+2025-01-07 09:40:55.543 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9281 ms
+2025-01-07 09:40:55.554 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0488 ms
+2025-01-07 09:40:57.043 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 09:40:57.050 +05:30 [INF] HTTP GET /productoverview responded 200 in 79.0998 ms
+2025-01-07 09:40:57.060 +05:30 [INF] HTTP GET /Images/Apple.jfif responded 200 in 2.3430 ms
+2025-01-07 09:40:57.061 +05:30 [INF] HTTP GET /Images/Cheese1.jfif responded 200 in 3.0925 ms
+2025-01-07 09:40:58.673 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 09:40:58.688 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[@__Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCategoryId], [p].[CategoryName], [p].[Description]
+FROM [ProductCategories] AS [p]
+WHERE [p].[ProductCategoryId] = @__Id_0
+2025-01-07 09:40:58.694 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:6a7d472e-19dc-4262-abcf-ab2cdd25ca61
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:6a7d472e-19dc-4262-abcf-ab2cdd25ca61
+Error Number:208,State:1,Class:16
+2025-01-07 09:40:58.801 +05:30 [ERR] Product not found.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductCategoryRepository.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductCategoryRepository.cs:line 38
+   at InventoryManager.Services.ProductCategoryRepositoryService.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductCategoryRepositoryService.cs:line 25
+   at InventoryManager.Components.Pages.ProductDetails.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 30
+ClientConnectionId:6a7d472e-19dc-4262-abcf-ab2cdd25ca61
+Error Number:208,State:1,Class:16
+2025-01-07 09:40:58.809 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 395.0162 ms
+2025-01-07 09:42:59.854 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 09:43:00.549 +05:30 [INF] HTTP GET / responded 200 in 697.1853 ms
+2025-01-07 09:43:00.579 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 12.3417 ms
+2025-01-07 09:43:00.595 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9045 ms
+2025-01-07 09:43:00.606 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9551 ms
+2025-01-07 09:43:01.622 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 09:43:01.629 +05:30 [INF] HTTP GET /productoverview responded 200 in 79.1085 ms
+2025-01-07 09:43:03.159 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 09:43:03.174 +05:30 [ERR] Failed executing DbCommand (2ms) [Parameters=[@__Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCategoryId], [p].[CategoryName], [p].[Description]
+FROM [ProductCategories] AS [p]
+WHERE [p].[ProductCategoryId] = @__Id_0
+2025-01-07 09:43:03.181 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f0f107b2-c645-408c-a715-e3cf512d00b8
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f0f107b2-c645-408c-a715-e3cf512d00b8
+Error Number:208,State:1,Class:16
+2025-01-07 09:43:03.284 +05:30 [ERR] Product not found.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductCategoryRepository.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductCategoryRepository.cs:line 38
+   at InventoryManager.Services.ProductCategoryRepositoryService.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductCategoryRepositoryService.cs:line 25
+   at InventoryManager.Components.Pages.ProductDetails.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 31
+ClientConnectionId:f0f107b2-c645-408c-a715-e3cf512d00b8
+Error Number:208,State:1,Class:16
+2025-01-07 09:43:03.294 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 358.9109 ms
+2025-01-07 09:48:46.939 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 09:48:47.765 +05:30 [INF] HTTP GET / responded 200 in 828.2559 ms
+2025-01-07 09:48:47.788 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.1181 ms
+2025-01-07 09:48:47.810 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9751 ms
+2025-01-07 09:48:47.821 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.2202 ms
+2025-01-07 09:48:49.380 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 09:48:49.388 +05:30 [INF] HTTP GET /productoverview responded 200 in 85.2465 ms
+2025-01-07 09:48:51.372 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 09:48:51.387 +05:30 [ERR] Failed executing DbCommand (2ms) [Parameters=[@__Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCategoryId], [p].[CategoryName], [p].[Description]
+FROM [ProductCategories] AS [p]
+WHERE [p].[ProductCategoryId] = @__Id_0
+2025-01-07 09:48:51.394 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:02ad7b62-aac9-4c1f-81b5-62aa9d3381d0
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:02ad7b62-aac9-4c1f-81b5-62aa9d3381d0
+Error Number:208,State:1,Class:16
+2025-01-07 09:48:51.462 +05:30 [ERR] Product not found.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductCategoryRepository.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductCategoryRepository.cs:line 38
+   at InventoryManager.Services.ProductCategoryRepositoryService.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductCategoryRepositoryService.cs:line 25
+   at InventoryManager.Components.Pages.ProductDetails.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 31
+ClientConnectionId:02ad7b62-aac9-4c1f-81b5-62aa9d3381d0
+Error Number:208,State:1,Class:16
+2025-01-07 09:48:51.468 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 254.6738 ms
+2025-01-07 09:51:42.929 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 09:51:43.610 +05:30 [INF] HTTP GET / responded 200 in 683.4741 ms
+2025-01-07 09:51:43.626 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.5017 ms
+2025-01-07 09:51:43.661 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9305 ms
+2025-01-07 09:51:43.671 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0747 ms
+2025-01-07 09:51:44.698 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 09:51:44.706 +05:30 [INF] HTTP GET /productoverview responded 200 in 79.7668 ms
+2025-01-07 09:51:46.482 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 09:51:46.498 +05:30 [ERR] Failed executing DbCommand (2ms) [Parameters=[@__Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCategoryId], [p].[CategoryName], [p].[Description]
+FROM [ProductCategories] AS [p]
+WHERE [p].[ProductCategoryId] = @__Id_0
+2025-01-07 09:51:46.505 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:42351d60-1f65-44ae-83c5-df4de074c3a3
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:42351d60-1f65-44ae-83c5-df4de074c3a3
+Error Number:208,State:1,Class:16
+2025-01-07 09:51:46.597 +05:30 [ERR] Product not found.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductCategoryRepository.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductCategoryRepository.cs:line 38
+   at InventoryManager.Services.ProductCategoryRepositoryService.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductCategoryRepositoryService.cs:line 25
+   at InventoryManager.Components.Pages.ProductDetails.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 32
+ClientConnectionId:42351d60-1f65-44ae-83c5-df4de074c3a3
+Error Number:208,State:1,Class:16
+2025-01-07 09:51:46.603 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 334.9036 ms
+2025-01-07 09:53:16.906 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 09:53:17.672 +05:30 [INF] HTTP GET / responded 200 in 768.7714 ms
+2025-01-07 09:53:17.687 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.1951 ms
+2025-01-07 09:53:17.715 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8998 ms
+2025-01-07 09:53:17.726 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.6486 ms
+2025-01-07 09:53:18.793 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 09:53:18.801 +05:30 [INF] HTTP GET /productoverview responded 200 in 80.6759 ms
+2025-01-07 09:53:19.879 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 09:53:19.895 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[@__Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCategoryId], [p].[CategoryName], [p].[Description]
+FROM [ProductCategories] AS [p]
+WHERE [p].[ProductCategoryId] = @__Id_0
+2025-01-07 09:53:19.902 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:6a8a3bc9-b44f-4b3b-84a3-f8da497c8d3e
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:6a8a3bc9-b44f-4b3b-84a3-f8da497c8d3e
+Error Number:208,State:1,Class:16
+2025-01-07 09:53:19.973 +05:30 [ERR] Product not found.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductCategoryRepository.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductCategoryRepository.cs:line 38
+   at InventoryManager.Services.ProductCategoryRepositoryService.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductCategoryRepositoryService.cs:line 25
+   at InventoryManager.Components.Pages.ProductDetails.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 36
+ClientConnectionId:6a8a3bc9-b44f-4b3b-84a3-f8da497c8d3e
+Error Number:208,State:1,Class:16
+2025-01-07 09:53:19.980 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 270.1169 ms
+2025-01-07 09:54:34.911 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 09:54:35.772 +05:30 [INF] HTTP GET / responded 200 in 863.9288 ms
+2025-01-07 09:54:35.795 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.5177 ms
+2025-01-07 09:54:35.817 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9744 ms
+2025-01-07 09:54:35.830 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 5.2815 ms
+2025-01-07 09:54:37.650 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 09:54:37.658 +05:30 [INF] HTTP GET /productoverview responded 200 in 80.5331 ms
+2025-01-07 09:54:39.274 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 09:54:39.290 +05:30 [ERR] Failed executing DbCommand (2ms) [Parameters=[@__Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCategoryId], [p].[CategoryName], [p].[Description]
+FROM [ProductCategories] AS [p]
+WHERE [p].[ProductCategoryId] = @__Id_0
+2025-01-07 09:54:39.296 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:6f28486b-f2b1-4b3a-87dd-95a3abbcb5e7
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:6f28486b-f2b1-4b3a-87dd-95a3abbcb5e7
+Error Number:208,State:1,Class:16
+2025-01-07 09:54:39.366 +05:30 [ERR] Product not found.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductCategoryRepository.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductCategoryRepository.cs:line 38
+   at InventoryManager.Services.ProductCategoryRepositoryService.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductCategoryRepositoryService.cs:line 25
+   at InventoryManager.Components.Pages.ProductDetails.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 36
+ClientConnectionId:6f28486b-f2b1-4b3a-87dd-95a3abbcb5e7
+Error Number:208,State:1,Class:16
+2025-01-07 09:54:39.373 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 253.0000 ms
+2025-01-07 09:56:19.736 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 09:56:20.546 +05:30 [INF] HTTP GET / responded 200 in 811.9471 ms
+2025-01-07 09:56:20.569 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.2082 ms
+2025-01-07 09:56:20.591 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9414 ms
+2025-01-07 09:56:20.601 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0644 ms
+2025-01-07 09:56:20.750 +05:30 [INF] HTTP GET /favicon.png responded 304 in 0.4019 ms
+2025-01-07 09:56:21.629 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 09:56:21.638 +05:30 [INF] HTTP GET /productoverview responded 200 in 84.4596 ms
+2025-01-07 09:56:23.019 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 09:56:23.035 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[@__Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCategoryId], [p].[CategoryName], [p].[Description]
+FROM [ProductCategories] AS [p]
+WHERE [p].[ProductCategoryId] = @__Id_0
+2025-01-07 09:56:23.042 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:beba9d9c-41cd-4a13-9a79-2a3a71fb2be9
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:beba9d9c-41cd-4a13-9a79-2a3a71fb2be9
+Error Number:208,State:1,Class:16
+2025-01-07 09:56:23.112 +05:30 [ERR] Product not found.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductCategoryRepository.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductCategoryRepository.cs:line 38
+   at InventoryManager.Services.ProductCategoryRepositoryService.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductCategoryRepositoryService.cs:line 25
+   at InventoryManager.Components.Pages.ProductDetails.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 34
+ClientConnectionId:beba9d9c-41cd-4a13-9a79-2a3a71fb2be9
+Error Number:208,State:1,Class:16
+2025-01-07 09:56:23.119 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 255.5045 ms
+2025-01-07 09:59:08.398 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 09:59:09.144 +05:30 [INF] HTTP GET / responded 200 in 749.6675 ms
+2025-01-07 09:59:09.174 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 11.9451 ms
+2025-01-07 09:59:09.188 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8366 ms
+2025-01-07 09:59:09.198 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1244 ms
+2025-01-07 09:59:12.359 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 09:59:12.367 +05:30 [INF] HTTP GET /productoverview responded 200 in 90.6981 ms
+2025-01-07 09:59:13.903 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 09:59:13.925 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[@__Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCategoryId], [p].[CategoryName], [p].[Description]
+FROM [ProductCategories] AS [p]
+WHERE [p].[ProductCategoryId] = @__Id_0
+2025-01-07 09:59:13.935 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:73de29e3-cfa0-4e3a-bf62-de317796b19d
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:73de29e3-cfa0-4e3a-bf62-de317796b19d
+Error Number:208,State:1,Class:16
+2025-01-07 09:59:14.009 +05:30 [ERR] Product not found.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductCategoryRepository.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductCategoryRepository.cs:line 38
+   at InventoryManager.Services.ProductCategoryRepositoryService.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductCategoryRepositoryService.cs:line 25
+   at InventoryManager.Components.Pages.ProductDetails.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 34
+ClientConnectionId:73de29e3-cfa0-4e3a-bf62-de317796b19d
+Error Number:208,State:1,Class:16
+2025-01-07 09:59:14.021 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 287.3670 ms
+2025-01-07 10:01:49.224 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:01:49.916 +05:30 [INF] HTTP GET / responded 200 in 693.9085 ms
+2025-01-07 10:01:49.931 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.0068 ms
+2025-01-07 10:01:49.962 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8985 ms
+2025-01-07 10:01:49.973 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1465 ms
+2025-01-07 10:01:51.545 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 10:01:51.553 +05:30 [INF] HTTP GET /productoverview responded 200 in 90.4162 ms
+2025-01-07 10:01:53.149 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 10:01:53.164 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[@__Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCategoryId], [p].[CategoryName], [p].[Description]
+FROM [ProductCategories] AS [p]
+WHERE [p].[ProductCategoryId] = @__Id_0
+2025-01-07 10:01:53.171 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:7e50dcd0-c914-4817-8053-ed18dc947c84
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:7e50dcd0-c914-4817-8053-ed18dc947c84
+Error Number:208,State:1,Class:16
+2025-01-07 10:01:53.269 +05:30 [ERR] Product not found.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'ProductCategories'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductCategoryRepository.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductCategoryRepository.cs:line 38
+   at InventoryManager.Services.ProductCategoryRepositoryService.GetProductCategoriesById(String Id) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductCategoryRepositoryService.cs:line 25
+   at InventoryManager.Components.Pages.ProductDetails.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 34
+ClientConnectionId:7e50dcd0-c914-4817-8053-ed18dc947c84
+Error Number:208,State:1,Class:16
+2025-01-07 10:01:53.280 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 335.2369 ms
+2025-01-07 10:04:40.221 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:04:40.923 +05:30 [INF] HTTP GET / responded 200 in 704.1272 ms
+2025-01-07 10:04:40.946 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.1582 ms
+2025-01-07 10:04:40.966 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8357 ms
+2025-01-07 10:04:40.978 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9878 ms
+2025-01-07 10:04:42.063 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 10:04:42.071 +05:30 [INF] HTTP GET /productoverview responded 200 in 86.9910 ms
+2025-01-07 10:04:43.433 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 10:04:43.492 +05:30 [ERR] Product not found.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductDetails.razor.cs:line 37
+2025-01-07 10:04:43.494 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 280.5255 ms
+2025-01-07 10:06:52.218 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:06:53.075 +05:30 [INF] HTTP GET / responded 200 in 858.7566 ms
+2025-01-07 10:06:53.094 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.5197 ms
+2025-01-07 10:06:53.119 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8076 ms
+2025-01-07 10:06:53.134 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.2454 ms
+2025-01-07 10:06:54.344 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 10:06:54.352 +05:30 [INF] HTTP GET /productoverview responded 200 in 81.0147 ms
+2025-01-07 10:06:55.644 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 10:06:55.661 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 168.5235 ms
+2025-01-07 10:08:14.455 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:08:15.128 +05:30 [INF] HTTP GET / responded 200 in 675.4243 ms
+2025-01-07 10:08:15.147 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.6843 ms
+2025-01-07 10:08:15.168 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7632 ms
+2025-01-07 10:08:15.179 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1206 ms
+2025-01-07 10:08:17.131 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 10:08:17.139 +05:30 [INF] HTTP GET /productoverview responded 200 in 88.4600 ms
+2025-01-07 10:08:18.857 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 10:08:18.864 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 227.8386 ms
+2025-01-07 10:10:10.938 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:10:11.634 +05:30 [INF] HTTP GET / responded 200 in 697.7107 ms
+2025-01-07 10:10:11.660 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 10.0163 ms
+2025-01-07 10:10:11.678 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7611 ms
+2025-01-07 10:10:11.688 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1726 ms
+2025-01-07 10:10:13.139 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 10:10:13.146 +05:30 [INF] HTTP GET /productoverview responded 200 in 80.6084 ms
+2025-01-07 10:10:14.337 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 50.8015 ms
+2025-01-07 10:11:08.343 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:11:09.034 +05:30 [INF] HTTP GET / responded 200 in 693.4438 ms
+2025-01-07 10:11:09.054 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.4698 ms
+2025-01-07 10:11:09.078 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7167 ms
+2025-01-07 10:11:09.090 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9706 ms
+2025-01-07 10:11:10.419 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 10:11:10.427 +05:30 [INF] HTTP GET /productoverview responded 200 in 79.3177 ms
+2025-01-07 10:11:11.549 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 10:11:11.554 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 131.4863 ms
+2025-01-07 10:12:21.571 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:12:22.269 +05:30 [INF] HTTP GET / responded 200 in 700.2406 ms
+2025-01-07 10:12:22.296 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 10.1727 ms
+2025-01-07 10:12:22.312 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7850 ms
+2025-01-07 10:12:22.322 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9806 ms
+2025-01-07 10:12:23.512 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 10:12:23.520 +05:30 [INF] HTTP GET /productoverview responded 200 in 80.3138 ms
+2025-01-07 10:12:24.632 +05:30 [ERR] Product supplier not found with ID: P001
+2025-01-07 10:12:24.711 +05:30 [WRN] Unhandled exception rendering component: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InventoryManager.Components.Pages.ProductDetails.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+2025-01-07 10:12:24.718 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 133.0288 ms
+2025-01-07 10:15:49.949 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:15:50.656 +05:30 [INF] HTTP GET / responded 200 in 708.9823 ms
+2025-01-07 10:15:50.678 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 4.0705 ms
+2025-01-07 10:15:50.700 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9461 ms
+2025-01-07 10:15:50.711 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.2683 ms
+2025-01-07 10:15:52.354 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 10:15:52.362 +05:30 [INF] HTTP GET /productoverview responded 200 in 86.5972 ms
+2025-01-07 10:15:53.639 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 62.2923 ms
+2025-01-07 10:17:17.608 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:17:18.317 +05:30 [INF] HTTP GET / responded 200 in 710.8610 ms
+2025-01-07 10:17:18.344 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 8.1547 ms
+2025-01-07 10:17:18.362 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7697 ms
+2025-01-07 10:17:18.372 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9419 ms
+2025-01-07 10:19:45.755 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:19:46.446 +05:30 [INF] HTTP GET / responded 200 in 693.2100 ms
+2025-01-07 10:19:46.463 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.6062 ms
+2025-01-07 10:19:46.491 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9327 ms
+2025-01-07 10:19:46.505 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1569 ms
+2025-01-07 10:19:48.386 +05:30 [INF] HTTP GET /addproduct responded 200 in 33.2820 ms
+2025-01-07 10:38:58.490 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:38:59.331 +05:30 [INF] HTTP GET / responded 200 in 842.7234 ms
+2025-01-07 10:38:59.355 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 8.2305 ms
+2025-01-07 10:38:59.374 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8039 ms
+2025-01-07 10:38:59.385 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.3601 ms
+2025-01-07 10:39:05.817 +05:30 [INF] HTTP GET /addproduct responded 404 in 0.1196 ms
+2025-01-07 10:39:07.844 +05:30 [INF] HTTP GET /_blazor responded 101 in 8452.9064 ms
+2025-01-07 10:39:07.848 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 13.4927 ms
+2025-01-07 10:39:17.594 +05:30 [INF] HTTP GET /addproduct/P001 responded 200 in 182.6701 ms
+2025-01-07 10:39:17.606 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.3861 ms
+2025-01-07 10:39:17.617 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1410 ms
+2025-01-07 10:39:17.623 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2167 ms
+2025-01-07 10:46:22.745 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:46:23.578 +05:30 [INF] HTTP GET / responded 200 in 835.7208 ms
+2025-01-07 10:46:23.599 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 4.6558 ms
+2025-01-07 10:46:23.621 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9330 ms
+2025-01-07 10:46:23.634 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0656 ms
+2025-01-07 10:46:25.526 +05:30 [INF] HTTP GET /addproduct responded 404 in 0.0838 ms
+2025-01-07 10:46:27.566 +05:30 [INF] HTTP GET /_blazor responded 101 in 3928.6948 ms
+2025-01-07 10:46:27.569 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 16.9444 ms
+2025-01-07 10:46:33.641 +05:30 [INF] HTTP GET /addproduct/P001 responded 200 in 190.7957 ms
+2025-01-07 10:46:33.652 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.3359 ms
+2025-01-07 10:46:33.666 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1285 ms
+2025-01-07 10:46:33.671 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2579 ms
+2025-01-07 10:53:19.087 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:53:19.949 +05:30 [INF] HTTP GET / responded 200 in 864.7633 ms
+2025-01-07 10:53:19.967 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 3.4979 ms
+2025-01-07 10:53:19.997 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9516 ms
+2025-01-07 10:53:20.008 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0336 ms
+2025-01-07 10:53:21.417 +05:30 [INF] HTTP GET /addproduct responded 404 in 0.1196 ms
+2025-01-07 10:53:23.453 +05:30 [INF] HTTP GET /_blazor responded 101 in 3441.7810 ms
+2025-01-07 10:53:23.458 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 14.2278 ms
+2025-01-07 10:53:28.653 +05:30 [INF] HTTP GET /addproduct/P001 responded 200 in 130.6285 ms
+2025-01-07 10:53:28.663 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.2406 ms
+2025-01-07 10:53:28.677 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1491 ms
+2025-01-07 10:53:28.683 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2235 ms
+2025-01-07 10:55:09.963 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 10:55:10.735 +05:30 [INF] HTTP GET / responded 200 in 774.3477 ms
+2025-01-07 10:55:10.760 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 6.3306 ms
+2025-01-07 10:55:10.776 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7714 ms
+2025-01-07 10:55:10.788 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.8820 ms
+2025-01-07 11:01:50.671 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 11:01:52.313 +05:30 [INF] HTTP GET / responded 200 in 1643.8581 ms
+2025-01-07 11:01:52.332 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.6272 ms
+2025-01-07 11:01:52.357 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7622 ms
+2025-01-07 11:01:52.368 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0556 ms
+2025-01-07 11:01:54.075 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 11:01:54.082 +05:30 [INF] HTTP GET /productoverview responded 200 in 75.9585 ms
+2025-01-07 11:01:55.636 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 65.9196 ms
+2025-01-07 11:01:59.460 +05:30 [INF] HTTP GET / responded 200 in 4.8537 ms
+2025-01-07 11:02:40.869 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 11:02:40.871 +05:30 [INF] HTTP GET /productoverview responded 200 in 11.5727 ms
+2025-01-07 11:02:42.186 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 11.0239 ms
+2025-01-07 11:03:17.155 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 11:03:17.859 +05:30 [INF] HTTP GET / responded 200 in 706.6362 ms
+2025-01-07 11:03:17.884 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 8.7686 ms
+2025-01-07 11:03:17.903 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.6984 ms
+2025-01-07 11:03:17.914 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1142 ms
+2025-01-07 11:03:19.284 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 11:03:19.291 +05:30 [INF] HTTP GET /productoverview responded 200 in 79.8243 ms
+2025-01-07 11:03:20.352 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 57.7899 ms
+2025-01-07 11:03:51.247 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 10.0074 ms
+2025-01-07 11:03:51.263 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.7038 ms
+2025-01-07 11:03:51.276 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.0819 ms
+2025-01-07 11:03:51.282 +05:30 [INF] HTTP GET /_blazor responded 101 in 33363.2962 ms
+2025-01-07 11:03:51.282 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 26.9958 ms
+2025-01-07 11:03:51.282 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1157 ms
+2025-01-07 11:05:19.306 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 11:05:20.011 +05:30 [INF] HTTP GET / responded 200 in 707.1379 ms
+2025-01-07 11:05:20.037 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 7.5652 ms
+2025-01-07 11:05:20.058 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7715 ms
+2025-01-07 11:05:20.069 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.8790 ms
+2025-01-07 11:05:21.596 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 11:05:21.604 +05:30 [INF] HTTP GET /productoverview responded 200 in 89.1359 ms
+2025-01-07 11:05:22.744 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 57.3821 ms
+2025-01-07 11:06:27.818 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 11:06:28.513 +05:30 [INF] HTTP GET / responded 200 in 696.3907 ms
+2025-01-07 11:06:28.527 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.1610 ms
+2025-01-07 11:06:28.555 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9875 ms
+2025-01-07 11:06:28.567 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1066 ms
+2025-01-07 11:06:29.681 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 11:06:29.689 +05:30 [INF] HTTP GET /productoverview responded 200 in 78.0925 ms
+2025-01-07 11:06:30.928 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 60.6414 ms
+2025-01-07 11:06:33.510 +05:30 [INF] HTTP GET /$ responded 404 in 0.1574 ms
+2025-01-07 11:06:35.538 +05:30 [INF] HTTP GET /_blazor responded 101 in 6966.9885 ms
+2025-01-07 11:06:35.542 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 16.7252 ms
+2025-01-07 11:07:05.098 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 11:07:05.927 +05:30 [INF] HTTP GET / responded 200 in 831.0805 ms
+2025-01-07 11:07:05.956 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 13.4969 ms
+2025-01-07 11:07:05.970 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7848 ms
+2025-01-07 11:07:05.982 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1859 ms
+2025-01-07 11:07:07.232 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 11:07:07.240 +05:30 [INF] HTTP GET /productoverview responded 200 in 78.4526 ms
+2025-01-07 11:07:08.061 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 59.4143 ms
+2025-01-07 11:07:09.950 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 33.9403 ms
+2025-01-07 12:12:56.259 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-07 12:12:57.066 +05:30 [INF] HTTP GET / responded 200 in 809.9921 ms
+2025-01-07 12:12:57.088 +05:30 [INF] HTTP GET /app.css responded 304 in 6.4468 ms
+2025-01-07 12:12:57.088 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 7.7469 ms
+2025-01-07 12:12:57.118 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8931 ms
+2025-01-07 12:12:57.132 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.2620 ms
+2025-01-07 12:13:00.104 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 12:13:00.112 +05:30 [INF] HTTP GET /productoverview responded 200 in 91.9343 ms
+2025-01-07 12:13:04.428 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 56.1328 ms
+2025-01-07 12:13:06.097 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 47.7009 ms
+2025-01-07 12:13:13.755 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 12.2558 ms
+2025-01-07 12:13:16.290 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-07 12:13:16.293 +05:30 [INF] HTTP GET /productoverview responded 200 in 8.5155 ms
+2025-01-07 12:13:18.294 +05:30 [INF] HTTP GET /productoverview/P006 responded 200 in 9.2234 ms
+2025-01-07 12:13:19.675 +05:30 [INF] HTTP GET /updateproduct/P006 responded 200 in 8.7475 ms
+2025-01-07 12:13:29.685 +05:30 [INF] HTTP GET /categories responded 404 in 0.2316 ms
+2025-01-07 12:13:31.721 +05:30 [INF] HTTP GET /_blazor responded 101 in 34584.6532 ms
+2025-01-07 12:13:31.725 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 12.8963 ms
+2025-01-07 12:13:31.880 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 0.8015 ms
+2025-01-07 12:13:31.882 +05:30 [INF] HTTP GET /updateproduct/P006 responded 200 in 11.4817 ms
+2025-01-07 12:13:31.890 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1569 ms

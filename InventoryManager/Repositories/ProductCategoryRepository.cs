@@ -16,14 +16,14 @@ namespace InventoryManager.Repositories
 
         public async Task<IEnumerable<ProductCategory>> GetAllCategories()
         {
-            IEnumerable<ProductCategory> productCategories = (IEnumerable<ProductCategory>) await _appDbContext.ProductCategories.Select(category => category).ToListAsync();
+            IEnumerable<ProductCategory> productCategories = (IEnumerable<ProductCategory>) await _appDbContext.Categories.Select(category => category).ToListAsync();
             return productCategories;
         }
         public async Task<int> GetTotalCategories()
         {
             try
             {
-                int totalCategories = await _appDbContext.ProductCategories.CountAsync();
+                int totalCategories = await _appDbContext.Categories.CountAsync();
                 return totalCategories;
             }
             catch (Exception ex)
@@ -31,6 +31,12 @@ namespace InventoryManager.Repositories
                 Log.Error("Something went wrong.", ex);
                 return 0;
             }
+        }
+        public async Task<ProductCategory> GetProductCategoriesById(string Id)
+        {
+            ProductCategory selectedProductCategory = default!;
+            selectedProductCategory = await _appDbContext.Categories.FirstOrDefaultAsync(productCategory => productCategory.ProductCategoryId == Id);
+            return selectedProductCategory;
         }
         public void Dispose()
         {

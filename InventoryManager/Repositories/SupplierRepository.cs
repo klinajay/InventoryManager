@@ -33,11 +33,10 @@ namespace InventoryManager.Repositories
                 return 0;
             }
         }
-        public async Task<Supplier> GetSupplierById(string Id)
+        public async Task<Supplier> GetSupplierById(String Id)
         {
             Supplier selectedSupplier = default!;
-
-            //selectedSupplier = await _appDbContext.Suppliers.;
+            selectedSupplier = await _appDbContext.Suppliers.SingleOrDefaultAsync(supplier => supplier.SupplierId == Id);
             return selectedSupplier;
         }
         public void Dispose()
