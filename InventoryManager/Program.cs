@@ -37,8 +37,10 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
 
-
+app.MapGet("/api/products", (IProductRepositoryService productRepositoryService) =>   productRepositoryService.GetAllProducts() );
 app.MapRazorComponents<App>()
-   .AddInteractiveServerRenderMode();
+   .AddInteractiveServerRenderMode()
+   .AddInteractiveWebAssemblyRenderMode()
+   .AddAdditionalAssemblies(typeof(InventoryManager.Client._Imports).Assembly);
 
 app.Run();

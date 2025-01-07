@@ -2,7 +2,7 @@
 using InventoryManager.Models.Domain;
 using Microsoft.AspNetCore.Components;
 
-namespace InventoryManager.Components
+namespace InventoryManager.Client.Components
 {
     public partial class ProductCard
     {

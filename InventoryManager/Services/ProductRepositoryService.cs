@@ -12,7 +12,7 @@ namespace InventoryManager.Services
             _productRepository = productRepository;
         }
 
-        public async Task<IEnumerable<Product>>GetAllProducts()
+        public async Task<IEnumerable<Product>> GetAllProducts()
         {
             return await _productRepository.GetAllProducts();
         }

@@ -1,4 +1,6 @@
 ﻿@page "/productoverview"
+@using InventoryManager.Client.Services;
+@inject IProductRepositoryService clientProductService
 @attribute [StreamRendering(true)]
 <h3>Product Overview</h3>
 

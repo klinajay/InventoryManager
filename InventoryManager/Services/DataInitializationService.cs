@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using InventoryManager.Models.Domain;
 
-namespace InventoryManager.Models.Services
+namespace InventoryManager.Services
 {
     public class DataInitializationService
     {
