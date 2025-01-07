@@ -1,5 +1,6 @@
-﻿using InventoryManager.Contracts.Repositories;
-using InventoryManager.Contracts.Services;
+﻿using InventoryManager.Client.Services;
+using InventoryManager.Contracts.Repositories;
+//using InventoryManager.Contracts.Services;
 using InventoryManager.State;
 using Microsoft.AspNetCore.Components;
 
@@ -11,7 +12,7 @@ namespace InventoryManager.Components
         [Inject]
         public ApplicationState ApplicationState { get; set; }
         [Inject]
-        public IProductRepositoryService ProductServices { get; set; }
+        public Contracts.Services.IProductRepositoryService ProductServices { get; set; }
 
         protected  override async Task OnInitializedAsync()
         {

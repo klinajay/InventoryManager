@@ -2,7 +2,7 @@
 
 namespace InventoryManager.Client.Services
 {
-    public interface IProductRepositoryService
+    public interface IProductRepositoryClientService
     {
         public Task<IEnumerable<Product>> GetAllProducts();
         public Task<int> GetTotalProducts();

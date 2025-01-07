@@ -6,6 +6,7 @@ using InventoryManager.Repositories;
 using InventoryManager.Services;
 using InventoryManager.State;
 using Microsoft.EntityFrameworkCore;
+//using IProductRepositoryService = InventoryManager.Contracts.Services.IProductRepositoryService;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,7 @@ builder.Services.AddScoped<IProductCategoryRepository, ProductCategoryRepository
 builder.Services.AddScoped<IProductCategoryRepositoryService, ProductCategoryRepositoryService>();
 builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
 builder.Services.AddScoped<ISupplierRepositoryService, SupplierRepositoryService>();
+
 builder.Services.AddScoped<ApplicationState>();
 var app = builder.Build();
 

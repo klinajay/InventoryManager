@@ -1,10 +1,11 @@
-﻿using InventoryManager.Contracts.Repositories;
+﻿using InventoryManager.Client.Services;
+using InventoryManager.Contracts.Repositories;
 using InventoryManager.Contracts.Services;
 using InventoryManager.Models.Domain;
 
 namespace InventoryManager.Services
 {
-    public class ProductRepositoryService : IProductRepositoryService
+    public class ProductRepositoryService : Contracts.Services.IProductRepositoryService
     {
         private readonly IProductRepository _productRepository;
         public ProductRepositoryService(IProductRepository productRepository)

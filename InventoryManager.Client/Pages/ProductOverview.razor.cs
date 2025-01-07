@@ -1,5 +1,6 @@
 ﻿
 //using InventoryManager.Client.Services;
+using InventoryManager.Client.Services;
 using InventoryManager.Models.Domain;
 
 using Microsoft.AspNetCore.Components;
@@ -8,14 +9,14 @@ namespace InventoryManager.Client.Pages
 {
     public partial class ProductOverview
     {
-        public IEnumerable<Product> Products { get; set; } = default!;
-        //[Inject]
-        //public IProductRepositoryService? ProductService { get; set; }
+        private List<Product> Products  = new();
+        [Inject]
+        public IProductRepositoryClientService? ClientProductService { get; set; }
         protected override async Task OnInitializedAsync()
         {
+            //ClientProductDataService C = new ClientProductDataService(HttpClient _hhtpClient);
 
-
-            Products = await clientProductService.GetAllProducts();
+            //Products = (await ClientProductService.GetAllProducts()).ToList();
 
             Log.Information($"Products found {Products}");
         }

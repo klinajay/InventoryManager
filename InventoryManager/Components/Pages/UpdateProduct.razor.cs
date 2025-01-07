@@ -1,4 +1,5 @@
-﻿using InventoryManager.Contracts.Services;
+﻿using InventoryManager.Client.Services;
+using InventoryManager.Contracts.Services;
 using InventoryManager.Models.Domain;
 using Microsoft.AspNetCore.Components;
 using Serilog;
@@ -13,7 +14,7 @@ namespace InventoryManager.Components.Pages
         public string ProductId { get; set; } = string.Empty;
 
         [Inject]
-        public IProductRepositoryService ProductRepositoryService { get; set; }
+        public Contracts.Services.IProductRepositoryService ProductRepositoryService { get; set; }
         [Inject]
         public ISupplierRepositoryService SupplierRepositoryService { get; set; }
         [Inject]

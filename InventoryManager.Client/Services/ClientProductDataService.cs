@@ -3,7 +3,7 @@ using InventoryManager.Models.Domain;
 
 namespace InventoryManager.Client.Services
 {
-    public class ClientProductDataService : IProductRepositoryService
+    public class ClientProductDataService : IProductRepositoryClientService
     {
         private readonly HttpClient _httpClient;
         public ClientProductDataService(HttpClient httpClient)
@@ -12,11 +12,13 @@ namespace InventoryManager.Client.Services
         }
         public async Task<IEnumerable<Product>> GetAllProducts()
         {
+
             Console.WriteLine("Entered");
             IEnumerable<Product>? productsList = await JsonSerializer.DeserializeAsync<IEnumerable<Product>>(
                                                 await _httpClient.GetStreamAsync("/api/products"),
                                                 new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
             return productsList;
+            
         }
 
         public Task<Product> GetProductById(string Id)

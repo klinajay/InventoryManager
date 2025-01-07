@@ -3,6 +3,7 @@ using InventoryManager.Models.Services;
 using Serilog;
 using InventoryManager.Models.Domain;
 using InventoryManager.Contracts.Services;
+using InventoryManager.Client.Services;
 
 namespace InventoryManager.Components.Pages
 {
@@ -12,7 +13,7 @@ namespace InventoryManager.Components.Pages
         public string ProductId { get; set; } = string.Empty;
 
         [Inject]
-        public IProductRepositoryService ProductRepositoryService { get; set; }
+        public Contracts.Services.IProductRepositoryService ProductRepositoryService { get; set; }
         [Inject]
         public ISupplierRepositoryService SupplierRepositoryService { get; set; }
         [Inject]
