@@ -1,6 +1,7 @@
 ﻿using InventoryManager.Contracts.Services;
 using InventoryManager.Models.Domain;
 using Microsoft.AspNetCore.Components;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Serilog;
 
 
@@ -18,7 +19,9 @@ namespace InventoryManager.Components.Pages
         public ISupplierRepositoryService SupplierRepositoryService { get; set; }
         [Inject]
         public IProductCategoryRepositoryService ProductCategoryRepositoryService { get; set; }
-
+        public bool isLoading = false;
+        public bool isError = false;
+        public string errorMessage;
         public Product ProductSelected { get; set; } = new Product();
         public ProductCategory ProductCategory { get; set; } = new ProductCategory();
         public Supplier SupplierSelected { get; set; } = new Supplier();
@@ -32,9 +35,9 @@ namespace InventoryManager.Components.Pages
                     Log.Error("ProductId is null or empty.");
                     return;
                 }
-
+                
                 ProductSelected = await ProductRepositoryService.GetProductById(ProductId);
-
+                
                 if (ProductSelected == null)
                 {
                     Log.Error("Product not found with ID: {ProductId}", ProductId);
@@ -64,11 +67,16 @@ namespace InventoryManager.Components.Pages
     public async Task HandleValidSubmit() {
             try
             {
+                isLoading = true;
                 bool status = await ProductRepositoryService.UpdateProduct(ProductSelected);
                 if(!status)
                 {
+                    isLoading = false;
+                    isError = true;
+                    errorMessage = "Someting went wrong while updating product. go back to try again.";
                     throw new Exception();
                 }
+
                 NavigationManager.NavigateTo($"/productoverview/{ProductId}");
             }
             catch (Exception ex)

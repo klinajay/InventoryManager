@@ -18,6 +18,7 @@ namespace InventoryManager.Repositories
         public async Task<IEnumerable<Supplier>> GetAllSuppliers()
         {
             IEnumerable<Supplier> suppliers = default!;
+            suppliers = await _appDbContext.Suppliers.Select(supplier => supplier).ToListAsync();
             return suppliers;
         }
         public async Task<int> GetTotalSuppliers()

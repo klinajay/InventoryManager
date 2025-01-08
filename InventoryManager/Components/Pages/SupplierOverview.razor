@@ -1,0 +1,38 @@
+﻿@page "/supplieroverview"
+
+
+<h3>Product Category Table</h3>
+@if (!isLoading)
+{
+    <table style="width: 100%; border-collapse: collapse; background-color: #E6E6FA;">
+        <thead>
+            <tr style="background-color: #D8BFD8; color: white;">
+                <th style="padding: 8px; text-align: left;">Supplier Id</th>
+                <th style="padding: 8px; text-align: left;">Supplier Name</th>
+                <th style="padding: 8px; text-align: left;">supplier address</th>
+                <th style="padding: 8px; text-align: left;">supplier contact</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var supplier in SelectedSupplier)
+            {
+                <tr style="border-bottom: 1px solid #D8BFD8;">
+                    <td style="padding: 8px;">@supplier.SupplierId</td>
+                    <td style="padding: 8px;">@supplier.SupplierName</td>
+                    <td style="padding: 8px;">@supplier.SupplierAddress</td>
+                    <td style="padding: 8px;">@supplier.SupplierContact</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Loading...</p>
+}
+
+
+@if (isError)
+{
+    <h1>@errorMessage</h1>
+}

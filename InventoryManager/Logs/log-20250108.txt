@@ -401,3 +401,178 @@ System.InvalidOperationException: BeginExecuteReader requires an open and availa
 2025-01-08 10:28:00.510 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 56.3380 ms
 2025-01-08 10:28:01.563 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 47.8521 ms
 2025-01-08 10:28:06.806 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.4098 ms
+2025-01-08 11:50:55.925 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 11:50:57.407 +05:30 [INF] HTTP GET / responded 200 in 1484.2230 ms
+2025-01-08 11:50:57.437 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 304 in 6.4989 ms
+2025-01-08 11:50:57.438 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 8.0177 ms
+2025-01-08 11:50:57.475 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9638 ms
+2025-01-08 11:50:57.487 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1328 ms
+2025-01-08 11:50:58.786 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 11:50:58.793 +05:30 [INF] HTTP GET /productoverview responded 200 in 76.1863 ms
+2025-01-08 11:51:00.049 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 73.5081 ms
+2025-01-08 11:51:01.306 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 40.5907 ms
+2025-01-08 11:51:19.174 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 21.1558 ms
+2025-01-08 11:51:19.174 +05:30 [INF] HTTP GET /_blazor responded 101 in 21682.7819 ms
+2025-01-08 11:51:39.463 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 11:51:40.168 +05:30 [INF] HTTP GET / responded 200 in 707.5977 ms
+2025-01-08 11:51:40.191 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 8.0595 ms
+2025-01-08 11:51:40.208 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8981 ms
+2025-01-08 11:51:40.220 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.3056 ms
+2025-01-08 11:51:41.154 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 11:51:41.161 +05:30 [INF] HTTP GET /productoverview responded 200 in 77.6362 ms
+2025-01-08 11:51:43.409 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 65.8516 ms
+2025-01-08 11:51:44.753 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 48.4296 ms
+2025-01-08 11:51:49.307 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.0294 ms
+2025-01-08 12:14:08.670 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:14:10.030 +05:30 [INF] HTTP GET / responded 200 in 1361.8426 ms
+2025-01-08 12:14:10.046 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.9039 ms
+2025-01-08 12:14:10.076 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.0842 ms
+2025-01-08 12:14:10.088 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.4240 ms
+2025-01-08 12:14:11.773 +05:30 [INF] HTTP GET /productcategoryoverview responded 200 in 34.9051 ms
+2025-01-08 12:18:26.920 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:18:27.627 +05:30 [INF] HTTP GET / responded 200 in 710.0430 ms
+2025-01-08 12:18:27.648 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.7705 ms
+2025-01-08 12:18:27.671 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9052 ms
+2025-01-08 12:18:27.684 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 6.2020 ms
+2025-01-08 12:18:53.708 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:18:54.408 +05:30 [INF] HTTP GET / responded 200 in 701.9468 ms
+2025-01-08 12:18:54.435 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 8.8694 ms
+2025-01-08 12:18:54.454 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8779 ms
+2025-01-08 12:18:54.465 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1585 ms
+2025-01-08 12:19:36.462 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:19:37.161 +05:30 [INF] HTTP GET / responded 200 in 702.6113 ms
+2025-01-08 12:19:37.191 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 6.0704 ms
+2025-01-08 12:19:37.208 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8090 ms
+2025-01-08 12:19:37.220 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1805 ms
+2025-01-08 12:20:16.667 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:20:17.362 +05:30 [INF] HTTP GET / responded 200 in 696.8702 ms
+2025-01-08 12:20:17.388 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 8.7210 ms
+2025-01-08 12:20:17.406 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9948 ms
+2025-01-08 12:20:17.422 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.2784 ms
+2025-01-08 12:21:13.983 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:21:14.681 +05:30 [INF] HTTP GET / responded 200 in 700.3356 ms
+2025-01-08 12:21:14.697 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 3.1681 ms
+2025-01-08 12:21:14.726 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9120 ms
+2025-01-08 12:21:14.738 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.6577 ms
+2025-01-08 12:21:58.809 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:21:59.511 +05:30 [INF] HTTP GET / responded 200 in 703.9802 ms
+2025-01-08 12:21:59.540 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 11.4561 ms
+2025-01-08 12:21:59.556 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9731 ms
+2025-01-08 12:21:59.573 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.2978 ms
+2025-01-08 12:22:30.616 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:22:31.347 +05:30 [INF] HTTP GET / responded 200 in 732.8845 ms
+2025-01-08 12:22:31.373 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 7.3441 ms
+2025-01-08 12:22:31.397 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9617 ms
+2025-01-08 12:22:31.408 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.3518 ms
+2025-01-08 12:22:38.939 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 12:22:38.952 +05:30 [INF] HTTP GET /productoverview responded 200 in 121.0651 ms
+2025-01-08 12:22:40.104 +05:30 [INF] HTTP GET /productcategoryoverview responded 200 in 6.9238 ms
+2025-01-08 12:22:40.727 +05:30 [INF] HTTP GET /suppliers responded 404 in 0.1516 ms
+2025-01-08 12:22:42.685 +05:30 [INF] HTTP GET /productcategoryoverview responded 200 in 4.6659 ms
+2025-01-08 12:22:42.685 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 0.1837 ms
+2025-01-08 12:48:53.705 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:48:55.364 +05:30 [INF] HTTP GET / responded 200 in 1660.6414 ms
+2025-01-08 12:48:55.381 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.0871 ms
+2025-01-08 12:48:55.410 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.0079 ms
+2025-01-08 12:48:55.428 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.4729 ms
+2025-01-08 12:48:57.658 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 12:48:57.665 +05:30 [INF] HTTP GET /productoverview responded 200 in 86.1310 ms
+2025-01-08 12:49:02.425 +05:30 [INF] HTTP GET /productcategoryoverview responded 200 in 18.7238 ms
+2025-01-08 12:49:04.380 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 12:49:04.383 +05:30 [INF] HTTP GET /productoverview responded 200 in 9.4298 ms
+2025-01-08 12:49:49.799 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:49:50.506 +05:30 [INF] HTTP GET / responded 200 in 710.0263 ms
+2025-01-08 12:49:50.525 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.1336 ms
+2025-01-08 12:49:50.550 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9493 ms
+2025-01-08 12:49:50.568 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.5521 ms
+2025-01-08 12:49:51.962 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 12:49:51.969 +05:30 [INF] HTTP GET /productoverview responded 200 in 77.3506 ms
+2025-01-08 12:49:56.032 +05:30 [INF] HTTP GET /productcategoryoverview responded 200 in 19.5018 ms
+2025-01-08 12:53:47.891 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:53:47.958 +05:30 [INF] HTTP GET / responded 200 in 69.8265 ms
+2025-01-08 12:53:47.976 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.8671 ms
+2025-01-08 12:53:52.398 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 12:53:52.574 +05:30 [ERR] Something went wrong.
+2025-01-08 12:53:52.678 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 12:53:52.688 +05:30 [INF] HTTP GET /productoverview responded 200 in 797.6386 ms
+2025-01-08 12:53:52.704 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.2803 ms
+2025-01-08 12:53:52.715 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.3148 ms
+2025-01-08 12:55:03.445 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:55:03.510 +05:30 [INF] HTTP GET / responded 200 in 67.3862 ms
+2025-01-08 12:55:03.540 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 9.8686 ms
+2025-01-08 12:55:05.638 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 12:55:05.819 +05:30 [ERR] Something went wrong.
+2025-01-08 12:55:05.925 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 12:55:05.933 +05:30 [INF] HTTP GET /productoverview responded 200 in 945.4507 ms
+2025-01-08 12:55:05.948 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9650 ms
+2025-01-08 12:55:05.961 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1494 ms
+2025-01-08 12:55:37.475 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:55:37.542 +05:30 [INF] HTTP GET / responded 200 in 68.7091 ms
+2025-01-08 12:55:37.559 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.2365 ms
+2025-01-08 12:55:39.497 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 12:55:39.686 +05:30 [ERR] Something went wrong.
+2025-01-08 12:55:39.779 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 12:55:39.787 +05:30 [INF] HTTP GET /productoverview responded 200 in 805.5916 ms
+2025-01-08 12:55:39.803 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.0727 ms
+2025-01-08 12:55:39.813 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0803 ms
+2025-01-08 12:56:24.383 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 12:56:24.446 +05:30 [INF] HTTP GET / responded 200 in 65.2790 ms
+2025-01-08 12:56:24.472 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 12.4324 ms
+2025-01-08 12:56:26.423 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 12:56:26.607 +05:30 [ERR] Something went wrong.
+2025-01-08 12:56:26.713 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 12:56:26.721 +05:30 [INF] HTTP GET /productoverview responded 200 in 822.3788 ms
+2025-01-08 12:56:26.738 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9743 ms
+2025-01-08 12:56:26.749 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1049 ms
+2025-01-08 13:04:46.312 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 13:04:46.376 +05:30 [INF] HTTP GET / responded 200 in 66.3028 ms
+2025-01-08 13:04:46.390 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.7652 ms
+2025-01-08 13:04:49.695 +05:30 [INF] HTTP GET /productcategoryoverview responded 200 in 765.6334 ms
+2025-01-08 13:04:51.253 +05:30 [INF] HTTP GET / responded 200 in 5.6091 ms
+2025-01-08 13:05:55.966 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 13:05:56.031 +05:30 [INF] HTTP GET / responded 200 in 67.1589 ms
+2025-01-08 13:05:56.046 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.3888 ms
+2025-01-08 13:09:23.319 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 205881.8587 ms
+2025-01-08 13:09:39.290 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 13:09:39.356 +05:30 [INF] HTTP GET / responded 200 in 68.3224 ms
+2025-01-08 13:09:39.379 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 6.6896 ms
+2025-01-08 13:09:43.788 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 13:09:43.974 +05:30 [ERR] Something went wrong.
+2025-01-08 13:09:44.084 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 13:09:44.093 +05:30 [INF] HTTP GET /productoverview responded 200 in 814.5185 ms
+2025-01-08 13:09:44.102 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9396 ms
+2025-01-08 13:09:44.112 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0246 ms
+2025-01-08 13:09:45.224 +05:30 [INF] HTTP GET /productcategoryoverview responded 200 in 57.3137 ms
+2025-01-08 13:09:46.487 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 15.3667 ms
+2025-01-08 13:09:47.258 +05:30 [INF] HTTP GET /_blazor responded 101 in 3140.9889 ms
+2025-01-08 13:09:47.262 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 15.0641 ms

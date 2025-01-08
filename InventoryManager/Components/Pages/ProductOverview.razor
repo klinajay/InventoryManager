@@ -1,6 +1,12 @@
 ﻿@page "/productoverview"
 @attribute [StreamRendering(true)]
-<h3>Product Overview</h3>
+
+<div class="top-row px-4 mb-5" style="background-color: #D8BFD8">
+	<h3 style="color: mediumpurple">Product Overview</h3>
+	<div>
+		<NumberOfProducts></NumberOfProducts>
+	</div>
+</div>
 
 @if(Products == null) {
 	Console.WriteLine("Inside null.");

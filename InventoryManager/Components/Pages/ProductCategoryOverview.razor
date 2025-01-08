@@ -1,0 +1,32 @@
+﻿@page "/productcategoryoverview"
+
+<h3>Product Category Table</h3>
+@if(!isLoading) {
+    <table style="width: 100%; border-collapse: collapse; background-color: #E6E6FA;">
+        <thead>
+            <tr style="background-color: #D8BFD8; color: white;">
+                <th style="padding: 8px; text-align: left;">Category Name</th>
+                <th style="padding: 8px; text-align: left;">Product Category ID</th>
+                <th style="padding: 8px; text-align: left;">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var productCategory in SelectedProductCategories)
+            {
+                <tr style="border-bottom: 1px solid #D8BFD8;">
+                    <td style="padding: 8px;">@productCategory.CategoryName</td>
+                    <td style="padding: 8px;">@productCategory.ProductCategoryId</td>
+                    <td style="padding: 8px;">@productCategory.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else {
+    <p>Loading...</p>
+}
+
+
+@if(isError) {
+    <h1>@errorMessage</h1>
+}
