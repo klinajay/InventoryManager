@@ -27,5 +27,9 @@ namespace InventoryManager.Services
             return supplierSellected;
             //return _supplierRepository.GetSupplierById(Id);
         }
+        public async Task UpdateSupplier(Supplier supplier)
+        {
+
+        }
     }
 }

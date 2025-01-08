@@ -39,6 +39,31 @@ namespace InventoryManager.Repositories
             
             return selectedProduct; 
         }
+        public async Task<bool> UpdateProduct(Product responseProduct)
+        {
+            if (responseProduct == null)
+            {
+                Log.Information("Provided product is null.");
+                return false;
+            }
+            Product? existingProduct = await _appDbContext.Products.FindAsync(responseProduct.ProductId);
+            if (existingProduct != null) { 
+                existingProduct.ProductId = responseProduct.ProductId;
+                existingProduct.ProductName = responseProduct.ProductName;
+                existingProduct.ProductPrice = responseProduct.ProductPrice;
+                existingProduct.ProductQuantity = responseProduct.ProductQuantity;
+                existingProduct.ProductCategoryId = responseProduct.ProductCategoryId;
+                existingProduct.Description = responseProduct.Description;
+                await _appDbContext.SaveChangesAsync();
+                return true;
+            }
+            
+                Log.Information("Product not found.");
+                return false;
+            
+            
+            
+        }
         public void Dispose() {
             _appDbContext.Dispose();
         }   

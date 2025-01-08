@@ -39,6 +39,10 @@ namespace InventoryManager.Repositories
             selectedSupplier = await _appDbContext.Suppliers.SingleOrDefaultAsync(supplier => supplier.SupplierId == Id);
             return selectedSupplier;
         }
+        public async Task UpdateSupplier(Supplier supplier)
+        {
+
+        }
         public void Dispose()
         {
             _appDbContext.Dispose();

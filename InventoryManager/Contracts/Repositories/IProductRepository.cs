@@ -9,5 +9,6 @@ namespace InventoryManager.Contracts.Repositories
         public  Task<IEnumerable<Product>>  GetAllProducts();
         public Task<int> GetTotalProducts();
         public Task<Product> GetProductById(string Id);
+        public  Task<bool> UpdateProduct(Product responseProduct);
     }
 }

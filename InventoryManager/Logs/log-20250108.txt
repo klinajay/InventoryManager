@@ -1,0 +1,403 @@
+2025-01-08 09:16:30.497 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 09:16:32.617 +05:30 [INF] HTTP GET / responded 200 in 2122.2562 ms
+2025-01-08 09:16:32.725 +05:30 [INF] HTTP GET /bootstrap/bootstrap.min.css responded 304 in 15.2587 ms
+2025-01-08 09:16:32.725 +05:30 [INF] HTTP GET /app.css responded 304 in 14.0621 ms
+2025-01-08 09:16:32.725 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 11.7056 ms
+2025-01-08 09:16:32.737 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 200 in 27.4694 ms
+2025-01-08 09:16:32.767 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8604 ms
+2025-01-08 09:16:32.778 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1610 ms
+2025-01-08 09:16:34.007 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 09:16:34.014 +05:30 [INF] HTTP GET /productoverview responded 200 in 81.3693 ms
+2025-01-08 09:16:34.026 +05:30 [INF] HTTP GET /Images/Apple.jfif responded 304 in 0.3148 ms
+2025-01-08 09:16:34.026 +05:30 [INF] HTTP GET /Images/Cheese1.jfif responded 304 in 0.2120 ms
+2025-01-08 09:16:35.394 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 97.3116 ms
+2025-01-08 09:16:37.538 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 65.0788 ms
+2025-01-08 09:16:44.552 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 16.7659 ms
+2025-01-08 09:16:44.556 +05:30 [INF] HTTP GET /_blazor responded 101 in 11774.9679 ms
+2025-01-08 09:49:41.639 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 09:49:43.227 +05:30 [INF] HTTP GET / responded 200 in 1589.9818 ms
+2025-01-08 09:49:43.253 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 4.5507 ms
+2025-01-08 09:49:43.273 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8049 ms
+2025-01-08 09:49:43.284 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9908 ms
+2025-01-08 09:49:46.372 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 09:49:46.379 +05:30 [INF] HTTP GET /productoverview responded 200 in 78.1253 ms
+2025-01-08 09:49:47.847 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 78.9811 ms
+2025-01-08 09:49:51.109 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 48.4320 ms
+2025-01-08 09:50:10.914 +05:30 [INF] HTTP POST /updateproduct/P001 responded 400 in 17.7803 ms
+2025-01-08 09:50:10.929 +05:30 [INF] HTTP GET /_blazor responded 101 in 27640.3025 ms
+2025-01-08 09:50:10.930 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 9.0879 ms
+2025-01-08 09:50:10.934 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 0.2297 ms
+2025-01-08 09:54:16.737 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 09:54:17.441 +05:30 [INF] HTTP GET / responded 200 in 706.3507 ms
+2025-01-08 09:54:17.467 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 8.5082 ms
+2025-01-08 09:54:17.486 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8759 ms
+2025-01-08 09:54:17.502 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.2247 ms
+2025-01-08 09:54:18.448 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 09:54:18.456 +05:30 [INF] HTTP GET /productoverview responded 200 in 78.3359 ms
+2025-01-08 09:54:19.531 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 66.0689 ms
+2025-01-08 09:54:20.977 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 37.4359 ms
+2025-01-08 09:54:38.842 +05:30 [INF] Provided product is null.
+2025-01-08 09:54:38.967 +05:30 [INF] HTTP POST /updateproduct/P001 responded 200 in 143.1907 ms
+2025-01-08 09:54:38.981 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.9035 ms
+2025-01-08 09:54:38.992 +05:30 [INF] HTTP GET /_blazor responded 101 in 21486.2852 ms
+2025-01-08 09:54:38.993 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1241 ms
+2025-01-08 09:54:38.994 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 19.2852 ms
+2025-01-08 09:54:38.998 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.3836 ms
+2025-01-08 09:54:56.981 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 8.9784 ms
+2025-01-08 09:54:56.988 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.5555 ms
+2025-01-08 09:54:56.989 +05:30 [INF] HTTP GET /_blazor responded 101 in 17987.4651 ms
+2025-01-08 09:54:57.003 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1482 ms
+2025-01-08 09:54:57.010 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1971 ms
+2025-01-08 09:54:58.194 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 8.2705 ms
+2025-01-08 09:55:01.660 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.9655 ms
+2025-01-08 09:55:01.668 +05:30 [INF] HTTP GET /_blazor responded 101 in 4654.3393 ms
+2025-01-08 09:55:01.669 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.2526 ms
+2025-01-08 09:55:01.668 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.5610 ms
+2025-01-08 09:55:01.679 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.0610 ms
+2025-01-08 09:55:01.686 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2169 ms
+2025-01-08 09:55:01.689 +05:30 [INF] HTTP GET /favicon.png responded 304 in 0.5724 ms
+2025-01-08 09:55:04.281 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.5030 ms
+2025-01-08 09:55:04.289 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.2644 ms
+2025-01-08 09:55:04.290 +05:30 [INF] HTTP GET /_blazor responded 101 in 2599.9126 ms
+2025-01-08 09:55:04.292 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.1278 ms
+2025-01-08 09:55:04.306 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.0718 ms
+2025-01-08 09:55:04.311 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1340 ms
+2025-01-08 09:55:05.395 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 09:55:05.398 +05:30 [INF] HTTP GET /productoverview responded 200 in 8.4240 ms
+2025-01-08 09:55:07.981 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 8.0192 ms
+2025-01-08 09:55:12.264 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.1409 ms
+2025-01-08 09:55:12.276 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.8014 ms
+2025-01-08 09:55:12.276 +05:30 [INF] HTTP GET /_blazor responded 101 in 7961.5145 ms
+2025-01-08 09:55:12.277 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.1647 ms
+2025-01-08 09:55:12.295 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.0749 ms
+2025-01-08 09:55:12.300 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1204 ms
+2025-01-08 09:56:08.033 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 09:56:08.870 +05:30 [INF] HTTP GET / responded 200 in 839.9549 ms
+2025-01-08 09:56:08.887 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.8328 ms
+2025-01-08 09:56:08.914 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.0605 ms
+2025-01-08 09:56:08.927 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.8258 ms
+2025-01-08 09:56:10.719 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 09:56:10.727 +05:30 [INF] HTTP GET /productoverview responded 200 in 81.4760 ms
+2025-01-08 09:56:11.999 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 63.6775 ms
+2025-01-08 09:56:14.180 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 45.4730 ms
+2025-01-08 09:57:44.215 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 1.9427 ms
+2025-01-08 09:57:44.242 +05:30 [INF] HTTP GET /_blazor responded 101 in 95311.2640 ms
+2025-01-08 09:57:44.295 +05:30 [INF] HTTP POST /updateproduct/P001 responded 200 in 70453.6137 ms
+2025-01-08 09:57:44.305 +05:30 [INF] HTTP GET /_blazor responded 101 in 76.2526 ms
+2025-01-08 09:57:44.309 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.4753 ms
+2025-01-08 09:57:44.318 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 13.4928 ms
+2025-01-08 09:57:44.326 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1183 ms
+2025-01-08 09:57:44.333 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1384 ms
+2025-01-08 09:57:45.230 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 18.2148 ms
+2025-01-08 09:57:49.077 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 1.2342 ms
+2025-01-08 09:57:49.085 +05:30 [INF] HTTP GET /_blazor responded 101 in 4749.2970 ms
+2025-01-08 09:57:54.452 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 09:57:55.167 +05:30 [INF] HTTP GET / responded 200 in 717.4647 ms
+2025-01-08 09:57:55.187 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.7621 ms
+2025-01-08 09:57:55.211 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9904 ms
+2025-01-08 09:57:55.221 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.8607 ms
+2025-01-08 09:57:56.299 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 09:57:56.306 +05:30 [INF] HTTP GET /productoverview responded 200 in 79.3278 ms
+2025-01-08 09:57:59.625 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 55.1252 ms
+2025-01-08 09:58:00.562 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 35.6538 ms
+2025-01-08 09:58:17.838 +05:30 [INF] HTTP POST /updateproduct/P001 responded 200 in 6231.2798 ms
+2025-01-08 09:58:17.852 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.2322 ms
+2025-01-08 09:58:17.862 +05:30 [INF] HTTP GET /_blazor responded 101 in 22635.5914 ms
+2025-01-08 09:58:17.863 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 17.3886 ms
+2025-01-08 09:58:17.869 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1182 ms
+2025-01-08 09:58:17.877 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2462 ms
+2025-01-08 09:58:39.094 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.4674 ms
+2025-01-08 09:58:39.102 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.7935 ms
+2025-01-08 09:58:39.105 +05:30 [INF] HTTP GET /_blazor responded 101 in 21225.4215 ms
+2025-01-08 09:58:39.106 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.0932 ms
+2025-01-08 09:58:39.119 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.0908 ms
+2025-01-08 09:58:39.124 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1549 ms
+2025-01-08 09:58:43.428 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.4132 ms
+2025-01-08 09:58:43.438 +05:30 [INF] HTTP GET /_blazor responded 101 in 4309.5944 ms
+2025-01-08 09:58:43.438 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.7991 ms
+2025-01-08 09:58:43.444 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.6677 ms
+2025-01-08 09:58:43.458 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.0857 ms
+2025-01-08 09:58:43.464 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1828 ms
+2025-01-08 10:00:44.256 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:00:45.051 +05:30 [INF] HTTP GET / responded 200 in 796.8504 ms
+2025-01-08 10:00:45.074 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 6.8572 ms
+2025-01-08 10:00:45.094 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9186 ms
+2025-01-08 10:00:45.105 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1746 ms
+2025-01-08 10:00:45.972 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:00:45.983 +05:30 [INF] HTTP GET /productoverview responded 200 in 92.7379 ms
+2025-01-08 10:00:46.957 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 56.9648 ms
+2025-01-08 10:00:48.439 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 37.8032 ms
+2025-01-08 10:01:14.701 +05:30 [INF] HTTP POST /updateproduct/P001 responded 200 in 21713.5061 ms
+2025-01-08 10:01:14.724 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.7593 ms
+2025-01-08 10:01:14.734 +05:30 [INF] HTTP GET /_blazor responded 101 in 29623.6168 ms
+2025-01-08 10:01:14.735 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 25.6582 ms
+2025-01-08 10:01:14.742 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.0861 ms
+2025-01-08 10:01:14.750 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2089 ms
+2025-01-08 10:01:33.433 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:01:34.612 +05:30 [INF] HTTP GET / responded 200 in 1181.5726 ms
+2025-01-08 10:01:34.636 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.4103 ms
+2025-01-08 10:01:34.657 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9674 ms
+2025-01-08 10:01:34.669 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.5725 ms
+2025-01-08 10:01:35.951 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:01:35.958 +05:30 [INF] HTTP GET /productoverview responded 200 in 88.3066 ms
+2025-01-08 10:01:37.085 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 64.1226 ms
+2025-01-08 10:01:38.280 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 42.9019 ms
+2025-01-08 10:02:05.942 +05:30 [INF] HTTP POST /updateproduct/P001 responded 200 in 22854.1785 ms
+2025-01-08 10:02:05.962 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.2772 ms
+2025-01-08 10:02:05.971 +05:30 [INF] HTTP GET /_blazor responded 101 in 31296.6738 ms
+2025-01-08 10:02:05.975 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 24.1039 ms
+2025-01-08 10:02:05.979 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1084 ms
+2025-01-08 10:02:05.987 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2422 ms
+2025-01-08 10:02:45.939 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:02:46.636 +05:30 [INF] HTTP GET / responded 200 in 699.3590 ms
+2025-01-08 10:02:46.662 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 4.7397 ms
+2025-01-08 10:02:46.681 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7837 ms
+2025-01-08 10:02:46.692 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9606 ms
+2025-01-08 10:02:47.936 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:02:47.944 +05:30 [INF] HTTP GET /productoverview responded 200 in 81.1992 ms
+2025-01-08 10:02:48.958 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 70.7377 ms
+2025-01-08 10:02:50.119 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 40.9471 ms
+2025-01-08 10:08:09.813 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.7954 ms
+2025-01-08 10:08:09.816 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1483 ms
+2025-01-08 10:08:09.853 +05:30 [INF] HTTP POST /updateproduct/P001 responded 200 in 316088.7128 ms
+2025-01-08 10:08:09.857 +05:30 [INF] HTTP GET /_blazor responded 101 in 323159.7207 ms
+2025-01-08 10:08:09.863 +05:30 [INF] HTTP GET /_blazor responded 101 in 41.6743 ms
+2025-01-08 10:08:09.867 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.6187 ms
+2025-01-08 10:08:09.875 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 12.8851 ms
+2025-01-08 10:08:09.883 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1464 ms
+2025-01-08 10:08:09.890 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1377 ms
+2025-01-08 10:08:16.241 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.6516 ms
+2025-01-08 10:08:16.249 +05:30 [INF] HTTP GET /_blazor responded 101 in 6355.0362 ms
+2025-01-08 10:08:24.174 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:08:25.098 +05:30 [INF] HTTP GET / responded 200 in 926.7612 ms
+2025-01-08 10:08:25.121 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.3169 ms
+2025-01-08 10:08:25.140 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8304 ms
+2025-01-08 10:08:25.150 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.7910 ms
+2025-01-08 10:08:26.256 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:08:26.264 +05:30 [INF] HTTP GET /productoverview responded 200 in 79.2690 ms
+2025-01-08 10:08:27.208 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 62.4549 ms
+2025-01-08 10:08:28.482 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 38.5584 ms
+2025-01-08 10:09:37.974 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2223 ms
+2025-01-08 10:09:38.033 +05:30 [INF] HTTP GET /_blazor responded 101 in 72877.2254 ms
+2025-01-08 10:09:42.477 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:09:43.166 +05:30 [INF] HTTP GET / responded 200 in 692.0038 ms
+2025-01-08 10:09:43.187 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.9859 ms
+2025-01-08 10:09:43.228 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9133 ms
+2025-01-08 10:09:43.247 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0606 ms
+2025-01-08 10:09:46.416 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:09:46.424 +05:30 [INF] HTTP GET /productoverview responded 200 in 90.4921 ms
+2025-01-08 10:09:47.463 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 56.3708 ms
+2025-01-08 10:09:48.633 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 39.7331 ms
+2025-01-08 10:11:04.725 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:11:05.410 +05:30 [INF] HTTP GET / responded 200 in 686.6591 ms
+2025-01-08 10:11:05.448 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 17.6910 ms
+2025-01-08 10:11:05.462 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7256 ms
+2025-01-08 10:11:05.473 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0942 ms
+2025-01-08 10:11:06.565 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:11:06.573 +05:30 [INF] HTTP GET /productoverview responded 200 in 79.6375 ms
+2025-01-08 10:11:07.602 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 60.6912 ms
+2025-01-08 10:11:09.202 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 40.7832 ms
+2025-01-08 10:14:20.667 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:14:21.506 +05:30 [INF] HTTP GET / responded 200 in 841.1663 ms
+2025-01-08 10:14:21.534 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 10.6179 ms
+2025-01-08 10:14:21.550 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9240 ms
+2025-01-08 10:14:21.562 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.6064 ms
+2025-01-08 10:14:22.829 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:14:22.837 +05:30 [INF] HTTP GET /productoverview responded 200 in 86.2458 ms
+2025-01-08 10:14:24.192 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 66.1611 ms
+2025-01-08 10:14:25.398 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 47.8088 ms
+2025-01-08 10:14:48.885 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:14:49.585 +05:30 [INF] HTTP GET / responded 200 in 701.6939 ms
+2025-01-08 10:14:49.608 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.7381 ms
+2025-01-08 10:14:49.629 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8572 ms
+2025-01-08 10:14:49.640 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0583 ms
+2025-01-08 10:14:50.757 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:14:50.765 +05:30 [INF] HTTP GET /productoverview responded 200 in 80.1481 ms
+2025-01-08 10:14:51.873 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 61.1056 ms
+2025-01-08 10:14:53.178 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 48.7744 ms
+2025-01-08 10:18:44.938 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:18:45.657 +05:30 [INF] HTTP GET / responded 200 in 721.7752 ms
+2025-01-08 10:18:45.683 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 12.4593 ms
+2025-01-08 10:18:45.702 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.7641 ms
+2025-01-08 10:18:45.713 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0301 ms
+2025-01-08 10:18:46.523 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:18:46.530 +05:30 [INF] HTTP GET /productoverview responded 200 in 79.2240 ms
+2025-01-08 10:18:47.520 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 56.1977 ms
+2025-01-08 10:18:48.506 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 42.0046 ms
+2025-01-08 10:19:16.219 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.4181 ms
+2025-01-08 10:23:33.540 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Description], [p].[ImageUrl], [p].[ProductCategoryId], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[SupplierId]
+FROM [Products] AS [p]
+2025-01-08 10:23:33.552 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 10:23:33.640 +05:30 [WRN] Unhandled exception rendering component: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+System.InvalidOperationException: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductRepository.GetAllProducts() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductRepository.cs:line 19
+   at InventoryManager.Services.ProductRepositoryService.GetAllProducts() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductRepositoryService.cs:line 17
+   at InventoryManager.Components.Pages.ProductOverview.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductOverview.razor.cs:line 19
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2025-01-08 10:23:33.649 +05:30 [INF] HTTP GET /productoverview responded 200 in 119.7816 ms
+2025-01-08 10:23:37.177 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 10:23:37.362 +05:30 [WRN] Unhandled exception rendering component: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductRepository.GetAllProducts() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductRepository.cs:line 19
+   at InventoryManager.Services.ProductRepositoryService.GetAllProducts() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductRepositoryService.cs:line 17
+   at InventoryManager.Components.Pages.ProductOverview.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductOverview.razor.cs:line 19
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+2025-01-08 10:23:37.367 +05:30 [INF] HTTP GET /productoverview responded 200 in 193.2027 ms
+2025-01-08 10:23:37.385 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.6959 ms
+2025-01-08 10:23:37.398 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1168 ms
+2025-01-08 10:23:37.406 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2059 ms
+2025-01-08 10:23:37.409 +05:30 [INF] HTTP GET /_blazor responded 101 in 291684.6682 ms
+2025-01-08 10:23:37.416 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 41.8200 ms
+2025-01-08 10:23:39.083 +05:30 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Description], [p].[ImageUrl], [p].[ProductCategoryId], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[SupplierId]
+FROM [Products] AS [p]
+2025-01-08 10:23:39.086 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 10:23:39.153 +05:30 [WRN] Unhandled exception rendering component: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+System.InvalidOperationException: BeginExecuteReader requires an open and available Connection. The connection's current state is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.ProductRepository.GetAllProducts() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\ProductRepository.cs:line 19
+   at InventoryManager.Services.ProductRepositoryService.GetAllProducts() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\ProductRepositoryService.cs:line 17
+   at InventoryManager.Components.Pages.ProductOverview.OnInitializedAsync() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\ProductOverview.razor.cs:line 19
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2025-01-08 10:23:39.159 +05:30 [INF] HTTP GET /productoverview responded 200 in 81.5013 ms
+2025-01-08 10:23:39.166 +05:30 [INF] HTTP GET /_blazor responded 101 in 1757.9591 ms
+2025-01-08 10:23:39.166 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 1.0936 ms
+2025-01-08 10:23:39.167 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.0923 ms
+2025-01-08 10:23:39.179 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.0814 ms
+2025-01-08 10:23:39.184 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1461 ms
+2025-01-08 10:24:04.467 +05:30 [INF] HTTP GET /categories responded 404 in 0.1766 ms
+2025-01-08 10:24:06.494 +05:30 [INF] HTTP GET /_blazor responded 101 in 27306.7005 ms
+2025-01-08 10:24:06.494 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.8984 ms
+2025-01-08 10:24:06.498 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 0.7981 ms
+2025-01-08 10:24:06.505 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:24:06.509 +05:30 [INF] HTTP GET /productoverview responded 200 in 12.9772 ms
+2025-01-08 10:24:06.517 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1363 ms
+2025-01-08 10:24:12.811 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 8.0496 ms
+2025-01-08 10:24:14.475 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 8.9271 ms
+2025-01-08 10:24:16.512 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 9.7282 ms
+2025-01-08 10:24:17.351 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:24:17.353 +05:30 [INF] HTTP GET /productoverview responded 200 in 6.7412 ms
+2025-01-08 10:24:18.172 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 9.2697 ms
+2025-01-08 10:24:19.235 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 8.4444 ms
+2025-01-08 10:24:31.488 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.3041 ms
+2025-01-08 10:26:38.233 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:26:39.079 +05:30 [INF] HTTP GET / responded 200 in 848.8284 ms
+2025-01-08 10:26:39.107 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 8.0838 ms
+2025-01-08 10:26:39.121 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8187 ms
+2025-01-08 10:26:39.132 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.3220 ms
+2025-01-08 10:26:39.990 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:26:39.997 +05:30 [INF] HTTP GET /productoverview responded 200 in 77.9390 ms
+2025-01-08 10:26:40.960 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 53.7377 ms
+2025-01-08 10:26:42.195 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 39.6607 ms
+2025-01-08 10:26:48.076 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.0621 ms
+2025-01-08 10:27:04.332 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:27:04.334 +05:30 [INF] HTTP GET /productOverview responded 200 in 7.8950 ms
+2025-01-08 10:27:04.357 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 3.1095 ms
+2025-01-08 10:27:04.367 +05:30 [INF] HTTP GET /_blazor responded 101 in 25229.9584 ms
+2025-01-08 10:27:04.371 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.0971 ms
+2025-01-08 10:27:04.372 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 30.1947 ms
+2025-01-08 10:27:04.378 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2065 ms
+2025-01-08 10:27:05.937 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 8.3602 ms
+2025-01-08 10:27:08.898 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 9.0076 ms
+2025-01-08 10:27:58.023 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 10:27:58.734 +05:30 [INF] HTTP GET / responded 200 in 713.2427 ms
+2025-01-08 10:27:58.752 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.2677 ms
+2025-01-08 10:27:58.776 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8906 ms
+2025-01-08 10:27:58.790 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0944 ms
+2025-01-08 10:27:59.656 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 10:27:59.663 +05:30 [INF] HTTP GET /productoverview responded 200 in 77.1535 ms
+2025-01-08 10:28:00.510 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 56.3380 ms
+2025-01-08 10:28:01.563 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 47.8521 ms
+2025-01-08 10:28:06.806 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 7.4098 ms

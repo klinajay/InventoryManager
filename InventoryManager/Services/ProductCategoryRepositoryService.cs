@@ -24,5 +24,9 @@ namespace InventoryManager.Services
         {
             return await _productCategoryRepository.GetProductCategoriesById(Id);
         }
+        public async Task<bool> UpdateProductCategory(ProductCategory responseProductCategory)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

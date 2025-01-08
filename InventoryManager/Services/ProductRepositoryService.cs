@@ -20,6 +20,11 @@ namespace InventoryManager.Services
         {
             return await _productRepository.GetProductById(Id);
         }
+        public async Task<bool> UpdateProduct(Product responseProduct)
+        {
+            bool status = await _productRepository.UpdateProduct(responseProduct);
+            return status;
+        }
         public async Task<int> GetTotalProducts()
         {
             return await _productRepository.GetTotalProducts();

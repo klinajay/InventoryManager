@@ -64,15 +64,16 @@ namespace InventoryManager.Components.Pages
     public async Task HandleValidSubmit() {
             try
             {
-                // Logic to save or update the product
-                //await ProductRepositoryService.UpdateProduct(ProductSelected);
-
-                // Navigate back to the product list or show a success message
-                NavigationManager.NavigateTo("/products");
+                bool status = await ProductRepositoryService.UpdateProduct(ProductSelected);
+                if(!status)
+                {
+                    throw new Exception();
+                }
+                NavigationManager.NavigateTo($"/productoverview/{ProductId}");
             }
             catch (Exception ex)
             {
-                // Handle errors (optional)
+                
                 Console.WriteLine($"Error updating product: {ex.Message}");
             }
         }

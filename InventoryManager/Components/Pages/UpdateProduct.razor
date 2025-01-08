@@ -1,9 +1,9 @@
 ﻿@page "/updateproduct/{ProductId}"
 @inject NavigationManager NavigationManager
-
+@rendermode InteractiveServer
 <h3>Add Product</h3>
 
-<EditForm Model="ProductSelected" OnValidSubmit="HandleValidSubmit">
+<EditForm Model="ProductSelected" FormName="updateform" OnValidSubmit="HandleValidSubmit">
     <h3>Update Product</h3>
 
     <!-- Product Fields -->
@@ -16,7 +16,7 @@
         <label for="description">Description</label>
         <InputTextArea id="description" class="form-control" @bind-Value="ProductSelected.Description" />
     </div>
-
+   
     <div class="form-group">
         <label for="productPrice">Price</label>
         <InputNumber id="productPrice" class="form-control" @bind-Value="ProductSelected.ProductPrice" />
@@ -37,38 +37,38 @@
 
     <div class="form-group">
         <label for="supplierId">Supplier Id</label>
-        <InputText id="supplierId" class="form-control" @bind-Value="SupplierSelected.SupplierId" disabled />
+        <InputText id="supplierId" class="form-control" @bind-Value="ProductSelected.SupplierId" />
     </div> 
 
     <div class="form-group">
         <label for="supplierName">Supplier Name</label>
-        <InputText id="supplierName" class="form-control" @bind-Value="SupplierSelected.SupplierName" />
+        <InputText id="supplierName" class="form-control" @bind-Value="SupplierSelected.SupplierName" readonly />
     </div>
 
     <div class="form-group">
         <label for="supplierContact">Supplier Contact</label>
-        <InputText id="supplierContact" class="form-control" @bind-Value="SupplierSelected.SupplierContact" />
+        <InputText id="supplierContact" class="form-control" @bind-Value="SupplierSelected.SupplierContact" readonly />
     </div>
 
     <div class="form-group">
         <label for="supplierAddress">Supplier Address</label>
-        <InputText id="supplierAddress" class="form-control" @bind-Value="SupplierSelected.SupplierAddress" />
+        <InputText id="supplierAddress" class="form-control" @bind-Value="SupplierSelected.SupplierAddress" readonly />
     </div>
     <h4>Category Information</h4>
     <div class="form-group">
         <label for="categoryId">Category Id</label>
-        <InputText id="categoryId" disabled class="form-control" @bind-Value="ProductCategory.ProductCategoryId" />
+        <InputText id="categoryId" class="form-control" @bind-Value="ProductSelected.ProductCategoryId" />
     </div>
 
     <div class="form-group">
         <label for="categoryName">Category Name</label>
-        <InputText id="categoryName" class="form-control" @bind-Value="ProductCategory.CategoryName" />
+        <InputText id="categoryName" class="form-control" @bind-Value="ProductCategory.CategoryName" readonly />
     </div>
 
 
     <div class="form-group">
         <label for="categoryDescription">category description</label>
-        <InputText id="categoryDescription" class="form-control" @bind-Value="ProductCategory.Description" />
+        <InputText id="categoryDescription" class="form-control" @bind-Value="ProductCategory.Description" readonly />
     </div>
     <button type="submit" class="btn btn-primary">Save</button>
     <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
