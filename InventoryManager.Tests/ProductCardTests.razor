@@ -1,0 +1,25 @@
+﻿@inherits TestContext
+@using InventoryManager.Components
+@using InventoryManager.Models
+@using InventoryManager.Models.Domain
+@code {
+    [Fact]
+    public void TestForMultipleProductsAvailable()
+    {
+        var product = new Product
+            {
+                ProductId = "P001",
+                ProductName = "Apple",
+                ProductPrice = 2.5,
+                ProductCategoryId = "C001",
+                SupplierId = "S001",
+                ImageUrl = "Images\\Apple.jfif"
+            };
+
+        var component = Render(@<ProductCard product="product"></ProductCard>);
+
+        component.Find("#directionLink").MarkupMatches(
+            @"<a id=""directionLink"" href=""/productoverview/P001"" class=""btn btn-primary"" style=""background-color: purple"">Details</a>");
+
+    }
+}

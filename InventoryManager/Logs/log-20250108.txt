@@ -576,3 +576,60 @@ System.InvalidOperationException: A second operation was started on this context
 2025-01-08 13:09:46.487 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 15.3667 ms
 2025-01-08 13:09:47.258 +05:30 [INF] HTTP GET /_blazor responded 101 in 3140.9889 ms
 2025-01-08 13:09:47.262 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 15.0641 ms
+2025-01-08 15:53:45.053 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 15:53:45.119 +05:30 [INF] HTTP GET / responded 200 in 68.8757 ms
+2025-01-08 15:53:45.132 +05:30 [INF] HTTP GET /app.css responded 304 in 1.6386 ms
+2025-01-08 15:53:45.143 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.8049 ms
+2025-01-08 15:53:45.144 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 200 in 7.5179 ms
+2025-01-08 15:53:51.883 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 15:53:52.068 +05:30 [ERR] Something went wrong.
+2025-01-08 15:53:52.595 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 15:53:52.604 +05:30 [INF] HTTP GET /productoverview responded 200 in 1243.8283 ms
+2025-01-08 15:53:52.619 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.1518 ms
+2025-01-08 15:53:52.632 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.2520 ms
+2025-01-08 15:53:53.380 +05:30 [INF] HTTP GET /productcategoryoverview responded 200 in 42.1259 ms
+2025-01-08 15:53:54.142 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 17.0691 ms
+2025-01-08 15:53:55.395 +05:30 [INF] HTTP GET /_blazor responded 101 in 2759.0738 ms
+2025-01-08 15:53:55.398 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 6.6080 ms
+2025-01-08 16:31:10.538 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 16:31:10.603 +05:30 [INF] HTTP GET / responded 200 in 67.1636 ms
+2025-01-08 16:31:10.618 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 304 in 1.6093 ms
+2025-01-08 16:31:10.618 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.0495 ms
+2025-01-08 16:31:12.550 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 16:31:12.729 +05:30 [ERR] Something went wrong.
+2025-01-08 16:31:12.839 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 16:31:12.848 +05:30 [INF] HTTP GET /productoverview responded 200 in 1344.7742 ms
+2025-01-08 16:31:12.858 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8822 ms
+2025-01-08 16:31:12.868 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9551 ms
+2025-01-08 16:31:14.578 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 13.5580 ms
+2025-01-08 16:31:14.578 +05:30 [INF] HTTP GET /_blazor responded 101 in 1704.0179 ms
+2025-01-08 17:24:48.654 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-08 17:24:48.720 +05:30 [INF] HTTP GET / responded 200 in 69.1375 ms
+2025-01-08 17:24:48.744 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 10.2830 ms
+2025-01-08 17:24:48.750 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 200 in 16.7860 ms
+2025-01-08 17:24:51.572 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-08 17:24:51.702 +05:30 [ERR] Something went wrong.
+2025-01-08 17:24:52.355 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-08 17:24:52.363 +05:30 [INF] HTTP GET /productoverview responded 200 in 1298.8111 ms
+2025-01-08 17:24:52.379 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.8813 ms
+2025-01-08 17:24:52.390 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.3111 ms
+2025-01-08 17:24:54.073 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 15.9071 ms
+2025-01-08 17:24:54.074 +05:30 [INF] HTTP GET /_blazor responded 101 in 1679.3625 ms
