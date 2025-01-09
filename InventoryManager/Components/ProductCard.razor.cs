@@ -17,8 +17,9 @@ namespace InventoryManager.Components
         public bool isLoading = false;
         public async Task  DeleteProduct()
         {
+            
             isLoading = true;
-            await Task.Delay(2000);
+            
             isSuccess = await _productRepositoryService.DeleteProduct(product.ProductId);
             isLoading = false;
             if(!isSuccess)
@@ -26,6 +27,7 @@ namespace InventoryManager.Components
 
                 errorMessage = "Something went wrong while deleting product.go back to try again.";
             }
+            NavigationManager.NavigateTo("/productoverview");
         }
 
 

@@ -11,5 +11,7 @@ namespace InventoryManager.Contracts.Repositories
         public Task<Product> GetProductById(string Id);
         public  Task<bool> UpdateProduct(Product responseProduct);
         public Task<bool> DeleteProduct(string Id);
+        public Task<bool> AddProduct(Product inputProduct , string productId);
+        public  string GetLastProductId();
     }
 }

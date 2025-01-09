@@ -34,5 +34,19 @@ namespace InventoryManager.Services
         {
             return await _productRepository.GetTotalProducts();
         }
+        public  string GetIdForProduct()
+        {
+            string LastProductId = _productRepository.GetLastProductId();
+            string number = LastProductId.Substring(1);
+            Int32.TryParse(number , out int idNumber);
+            string productId = "p" + (idNumber + 1);
+            return productId;
+        }
+        public async Task<bool> AddProduct(Product inputProduct)
+        {
+            string productId = GetIdForProduct();
+            bool status = await _productRepository.AddProduct(inputProduct, productId);
+            return status;
+        }
     }
 }

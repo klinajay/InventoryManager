@@ -85,6 +85,23 @@ namespace InventoryManager.Repositories
             return false;
 
         }
+        public async Task<bool> AddProduct(Product inputProduct , string productId)
+        {
+            if (inputProduct == null)
+            {
+                Log.Information("Provided product is null.");
+                return false;
+            }
+            inputProduct.ProductId = productId;
+            await _appDbContext.Products.AddAsync(inputProduct);
+            await _appDbContext.SaveChangesAsync();
+            return true;
+        }
+        public string GetLastProductId()
+        {
+            string productId =  _appDbContext.Products.Max(product => product.ProductId);
+            return productId;
+        }
         public void Dispose() {
             _appDbContext.Dispose();
         }   

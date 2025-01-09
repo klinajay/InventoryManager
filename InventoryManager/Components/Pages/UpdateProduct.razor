@@ -11,7 +11,7 @@ else {
     <EditForm Model="ProductSelected" FormName="updateform" OnValidSubmit="HandleValidSubmit">
         <h3>Update Product</h3>
 
-        <!-- Product Fields -->
+        
         <div class="form-group">
             <label for="productName">Product Name</label>
             <InputText id="productName" class="form-control" @bind-Value="ProductSelected.ProductName" />
@@ -37,7 +37,7 @@ else {
             <InputText id="imageUrl" class="form-control" @bind-Value="ProductSelected.ImageUrl" />
         </div>
 
-        <!-- Supplier Fields -->
+        
         <h4>Supplier Information</h4>
 
         <div class="form-group">
