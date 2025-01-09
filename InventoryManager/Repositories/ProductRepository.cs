@@ -102,6 +102,14 @@ namespace InventoryManager.Repositories
             string productId =  _appDbContext.Products.Max(product => product.ProductId);
             return productId;
         }
+        public async Task<IEnumerable<Product>> GetProductsByCategory(string categoryId)
+        {
+            List<Product> selectedProduct = default!;
+
+            selectedProduct = await _appDbContext.Products.Where(product => product.ProductCategoryId == categoryId).Select(product => product).ToListAsync();
+
+            return selectedProduct;
+        }
         public void Dispose() {
             _appDbContext.Dispose();
         }   

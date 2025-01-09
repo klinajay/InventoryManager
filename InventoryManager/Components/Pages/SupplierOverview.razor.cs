@@ -12,6 +12,7 @@ namespace InventoryManager.Components.Pages
         public string? errorMessage;
         public bool isError = false;
         public bool isLoading = false;
+        
         protected async override Task OnInitializedAsync()
         {
             isLoading = true;

@@ -1,5 +1,6 @@
 ﻿using InventoryManager.Contracts.Repositories;
 using InventoryManager.Contracts.Services;
+using InventoryManager.Data;
 using InventoryManager.Models.Domain;
 
 namespace InventoryManager.Services
@@ -41,6 +42,14 @@ namespace InventoryManager.Services
             Int32.TryParse(number , out int idNumber);
             string productId = "P" + (idNumber + 1);
             return productId;
+        }
+        public async Task<IEnumerable<Product>> GetProductsByCategory(string categoryId)
+        {
+            IEnumerable<Product> selectedProduct = default!;
+
+            selectedProduct = await _productRepository.GetProductsByCategory(categoryId);
+
+            return selectedProduct;
         }
         public async Task<bool> AddProduct(Product inputProduct)
         {

@@ -1,15 +1,26 @@
 ﻿@page "/productoverview"
 @attribute [StreamRendering(true)]
 
-<div class="top-row px-4 mb-5" style="background-color: #D8BFD8">
+<div class="top-row px-20 mb-5" style="background-color: #D8BFD8">
 	<h3 style="color: mediumpurple">Product Overview</h3>
 	<div>
 		<NumberOfProducts></NumberOfProducts>
 	</div>
+	<div>
+	<label for="category">Select Category:</label>
+	<select onselect="RenderProductByCategories"  id="category" @bind="SelectedCategory" class="form-control">
+		<option value="">-- All Categories --</option>
+		@foreach (var category in Categories)
+		{
+			<option value="@category.CategoryName">@category.CategoryName</option>
+		}
+	</select>
+</div>
+
 </div>
 
 @if(Products == null) {
-	Console.WriteLine("Inside null.");
+	
 	<p class="text-black"><em>Loading...</em></p>
 }
 else {

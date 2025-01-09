@@ -38,9 +38,11 @@ namespace InventoryManager.Repositories
             selectedProductCategory = await _appDbContext.Categories.FirstOrDefaultAsync(productCategory => productCategory.ProductCategoryId == Id);
             return selectedProductCategory;
         }
-        public async Task<bool> UpdateProductCategory(ProductCategory category)
+        public string GetIdOfCategory(string categoryName)
         {
-            throw new NotImplementedException();
+            string? categoryId = default!;
+            categoryId = _appDbContext.Categories.Where(category => category.CategoryName == categoryName).Select(category => category.CategoryName).ToString();
+            return categoryId;
         }
         public void Dispose()
         {

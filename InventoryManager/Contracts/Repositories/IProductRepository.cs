@@ -13,5 +13,6 @@ namespace InventoryManager.Contracts.Repositories
         public Task<bool> DeleteProduct(string Id);
         public Task<bool> AddProduct(Product inputProduct , string productId);
         public  string GetLastProductId();
+        public Task<IEnumerable<Product>> GetProductsByCategory(string categoryId);
     }
 }
