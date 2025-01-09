@@ -1,6 +1,9 @@
 ﻿using InventoryManager.Contracts.Repositories;
 using InventoryManager.Contracts.Services;
+using InventoryManager.Data;
 using InventoryManager.Models.Domain;
+using InventoryManager.Repositories;
+using Serilog;
 
 namespace InventoryManager.Services
 {
@@ -27,9 +30,25 @@ namespace InventoryManager.Services
             return supplierSellected;
             //return _supplierRepository.GetSupplierById(Id);
         }
-        public async Task UpdateSupplier(Supplier supplier)
+        public string GetIdForSupplier()
         {
-
+            string lastSupplierId = _supplierRepository.GetLastSupplierId();
+            string number = lastSupplierId.Substring(1);
+            Int32.TryParse(number, out int idNumber);
+            string supplierId = "S" + (idNumber + 1);
+            return supplierId;
         }
+        public async Task<bool> AddSupplier(Supplier inputSupplier)
+        {
+            string supplierId = GetIdForSupplier();
+            bool status = await _supplierRepository.AddSupplier(inputSupplier, supplierId);
+            return status;
+        }
+        public async Task<bool> DeleteSupplier(string Id)
+        {
+            bool status = await _supplierRepository.DeleteSupplier(Id);
+            return status;
+        }
+
     }
 }

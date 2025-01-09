@@ -39,7 +39,7 @@ namespace InventoryManager.Services
             string LastProductId = _productRepository.GetLastProductId();
             string number = LastProductId.Substring(1);
             Int32.TryParse(number , out int idNumber);
-            string productId = "p" + (idNumber + 1);
+            string productId = "P" + (idNumber + 1);
             return productId;
         }
         public async Task<bool> AddProduct(Product inputProduct)

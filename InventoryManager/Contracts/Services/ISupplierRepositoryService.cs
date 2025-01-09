@@ -6,7 +6,8 @@ namespace InventoryManager.Contracts.Services
     {
         public Task<IEnumerable<Supplier>> GetAllSuppliers();
         public Task<int> GetTotalSuppliers();
-        public Task<Supplier> GetSupplierById(String Id);
-        public Task UpdateSupplier(Supplier supplier);
+        public Task<Supplier> GetSupplierById(string Id);
+        public Task<bool> AddSupplier(Supplier inputSupplier);
+        public Task<bool> DeleteSupplier(string Id);
     }
 }

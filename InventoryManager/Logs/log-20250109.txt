@@ -909,3 +909,703 @@ System.InvalidOperationException: A second operation was started on this context
 2025-01-09 12:08:11.383 +05:30 [INF] HTTP GET /productoverview responded 200 in 7.5148 ms
 2025-01-09 12:08:13.736 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.6926 ms
 2025-01-09 12:08:13.741 +05:30 [INF] HTTP GET /_blazor responded 101 in 12194.7428 ms
+2025-01-09 12:12:26.270 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 12:12:26.362 +05:30 [INF] HTTP GET / responded 200 in 94.6566 ms
+2025-01-09 12:12:26.397 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.6328 ms
+2025-01-09 12:12:30.402 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-09 12:12:30.527 +05:30 [ERR] Something went wrong.
+2025-01-09 12:12:30.627 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-09 12:12:30.637 +05:30 [INF] HTTP GET /productoverview responded 200 in 913.3037 ms
+2025-01-09 12:12:30.656 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.5315 ms
+2025-01-09 12:12:30.667 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0511 ms
+2025-01-09 12:12:44.586 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 121.3767 ms
+2025-01-09 12:12:46.612 +05:30 [INF] HTTP GET /_blazor responded 101 in 15936.8488 ms
+2025-01-09 12:12:46.616 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 11.0323 ms
+2025-01-09 12:12:48.371 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 51.5131 ms
+2025-01-09 12:12:48.384 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2107 ms
+2025-01-09 12:13:57.086 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 6.2612 ms
+2025-01-09 12:13:59.105 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 6.6040 ms
+2025-01-09 12:13:59.105 +05:30 [INF] HTTP GET /_blazor responded 101 in 70715.4218 ms
+2025-01-09 12:14:01.681 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 8.9092 ms
+2025-01-09 12:14:01.690 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1393 ms
+2025-01-09 12:14:13.782 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 6.3755 ms
+2025-01-09 12:14:15.796 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 1.2096 ms
+2025-01-09 12:14:15.802 +05:30 [INF] HTTP GET /_blazor responded 101 in 14106.7126 ms
+2025-01-09 12:14:19.362 +05:30 [INF] HTTP GET /productcategoryoverview responded 200 in 9.3207 ms
+2025-01-09 12:14:23.842 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 9.3339 ms
+2025-01-09 12:14:26.010 +05:30 [INF] HTTP GET /addproduct responded 200 in 8.5309 ms
+2025-01-09 12:14:26.018 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1548 ms
+2025-01-09 12:16:04.635 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-09 12:16:04.638 +05:30 [INF] HTTP GET /productoverview responded 200 in 7.7887 ms
+2025-01-09 12:16:07.328 +05:30 [INF] HTTP GET /productoverview/p12 responded 200 in 7.0309 ms
+2025-01-09 12:16:09.360 +05:30 [INF] HTTP GET /_blazor responded 101 in 103336.9594 ms
+2025-01-09 12:16:09.360 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.5699 ms
+2025-01-09 12:16:22.482 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-09 12:16:22.484 +05:30 [INF] HTTP GET /productoverview responded 200 in 7.7423 ms
+2025-01-09 12:16:22.494 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1271 ms
+2025-01-09 12:16:26.766 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-09 12:16:26.768 +05:30 [INF] HTTP GET /productoverview responded 200 in 6.6605 ms
+2025-01-09 12:16:28.650 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-09 12:16:28.652 +05:30 [INF] HTTP GET /productoverview responded 200 in 6.8485 ms
+2025-01-09 12:16:28.661 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 0.4003 ms
+2025-01-09 12:16:28.665 +05:30 [INF] HTTP GET /_blazor responded 101 in 6164.8527 ms
+2025-01-09 12:16:28.669 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 3.8406 ms
+2025-01-09 12:16:28.690 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1178 ms
+2025-01-09 12:16:28.696 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1313 ms
+2025-01-09 14:01:03.095 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 14:01:03.173 +05:30 [INF] HTTP GET / responded 200 in 81.7919 ms
+2025-01-09 14:01:03.201 +05:30 [INF] HTTP GET /InventoryManager.styles.css responded 304 in 8.0162 ms
+2025-01-09 14:01:03.201 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 7.4307 ms
+2025-01-09 14:01:09.949 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InventoryManager.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-01-09 14:01:10.083 +05:30 [ERR] Something went wrong.
+2025-01-09 14:01:10.182 +05:30 [INF] Products found System.Collections.Generic.List`1[InventoryManager.Models.Domain.Product]
+2025-01-09 14:01:10.199 +05:30 [INF] HTTP GET /productoverview responded 200 in 1205.6624 ms
+2025-01-09 14:01:10.216 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.9182 ms
+2025-01-09 14:01:10.232 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 8.6599 ms
+2025-01-09 14:01:13.240 +05:30 [INF] HTTP GET /productoverview/P001 responded 200 in 119.2608 ms
+2025-01-09 14:01:15.019 +05:30 [INF] HTTP GET /updateproduct/P001 responded 200 in 62.5432 ms
+2025-01-09 14:01:37.954 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 13.4387 ms
+2025-01-09 14:01:39.990 +05:30 [INF] HTTP GET /_blazor responded 101 in 29751.9863 ms
+2025-01-09 14:01:39.994 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 21.3372 ms
+2025-01-09 14:01:43.113 +05:30 [INF] HTTP GET /addproduct responded 200 in 8.9618 ms
+2025-01-09 14:01:43.123 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.2067 ms
+2025-01-09 14:05:26.351 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 14:05:26.417 +05:30 [INF] HTTP GET / responded 200 in 68.1871 ms
+2025-01-09 14:05:26.444 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 9.3222 ms
+2025-01-09 14:05:28.402 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 590.3571 ms
+2025-01-09 14:06:26.504 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 14:06:26.568 +05:30 [INF] HTTP GET / responded 200 in 66.5899 ms
+2025-01-09 14:06:26.584 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.0692 ms
+2025-01-09 14:06:30.222 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 743.9410 ms
+2025-01-09 14:07:11.443 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 14:07:11.508 +05:30 [INF] HTTP GET / responded 200 in 66.7723 ms
+2025-01-09 14:07:11.522 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.1124 ms
+2025-01-09 14:07:13.571 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 609.7940 ms
+2025-01-09 14:44:56.224 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 14:44:56.292 +05:30 [INF] HTTP GET / responded 200 in 71.0827 ms
+2025-01-09 14:44:56.313 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 6.3096 ms
+2025-01-09 14:44:58.611 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 745.2659 ms
+2025-01-09 14:44:59.897 +05:30 [INF] HTTP GET /addsupplier responded 200 in 51.1757 ms
+2025-01-09 14:44:59.906 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9349 ms
+2025-01-09 14:44:59.916 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 3.9797 ms
+2025-01-09 14:45:56.653 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 48.4454 ms
+2025-01-09 14:45:58.685 +05:30 [INF] HTTP GET /_blazor responded 101 in 58764.0503 ms
+2025-01-09 14:45:58.689 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 10.6518 ms
+2025-01-09 14:46:48.341 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 14:46:48.407 +05:30 [INF] HTTP GET / responded 200 in 68.7268 ms
+2025-01-09 14:46:48.432 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 8.4478 ms
+2025-01-09 14:46:50.429 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 600.7164 ms
+2025-01-09 14:46:51.655 +05:30 [INF] HTTP GET /addsupplier responded 200 in 53.0468 ms
+2025-01-09 14:46:51.665 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.2320 ms
+2025-01-09 14:46:51.676 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1230 ms
+2025-01-09 14:47:09.433 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 45.2563 ms
+2025-01-09 14:47:11.475 +05:30 [INF] HTTP GET /_blazor responded 101 in 19795.4642 ms
+2025-01-09 14:47:11.479 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 17.0473 ms
+2025-01-09 14:55:34.699 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 14:55:34.764 +05:30 [INF] HTTP GET / responded 200 in 68.1247 ms
+2025-01-09 14:55:34.789 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 11.3679 ms
+2025-01-09 14:55:37.400 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 717.4755 ms
+2025-01-09 14:55:38.438 +05:30 [INF] HTTP GET /addsupplier responded 200 in 51.7280 ms
+2025-01-09 14:55:38.447 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9932 ms
+2025-01-09 14:55:38.458 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1038 ms
+2025-01-09 14:56:19.188 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 1426.3499 ms
+2025-01-09 14:56:20.798 +05:30 [INF] HTTP GET /_blazor responded 101 in 42335.9224 ms
+2025-01-09 14:56:20.799 +05:30 [ERR] Failed executing DbCommand (23ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Suppliers] ([SupplierId], [SupplierAddress], [SupplierContact], [SupplierName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-09 14:56:20.817 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2aaafe3d-4cf9-4016-8b2f-33f5098cce8c
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2aaafe3d-4cf9-4016-8b2f-33f5098cce8c
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-01-09 14:56:20.905 +05:30 [WRN] Unhandled exception rendering component: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2aaafe3d-4cf9-4016-8b2f-33f5098cce8c
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.SupplierRepository.AddSupplier(Supplier inputSupplier, String supplierId) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\SupplierRepository.cs:line 54
+   at InventoryManager.Services.SupplierRepositoryService.AddSupplier(Supplier inputSupplier) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\SupplierRepositoryService.cs:line 44
+   at InventoryManager.Components.Pages.AddSupplier.HandleValidSubmit() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\AddSupplier.razor.cs:line 26
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2025-01-09 14:56:20.931 +05:30 [ERR] Unhandled exception in circuit 'slN_dwzDpEZLFHO1RRRRCRmOCzJeulORmGg9JZrKPE8'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2aaafe3d-4cf9-4016-8b2f-33f5098cce8c
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.SupplierRepository.AddSupplier(Supplier inputSupplier, String supplierId) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\SupplierRepository.cs:line 54
+   at InventoryManager.Services.SupplierRepositoryService.AddSupplier(Supplier inputSupplier) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\SupplierRepositoryService.cs:line 44
+   at InventoryManager.Components.Pages.AddSupplier.HandleValidSubmit() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\AddSupplier.razor.cs:line 26
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2025-01-09 14:56:20.960 +05:30 [INF] HTTP GET /_blazor responded 101 in 326.0716 ms
+2025-01-09 14:56:37.600 +05:30 [INF] HTTP GET /addsupplier responded 200 in 1.7005 ms
+2025-01-09 14:56:37.617 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.2653 ms
+2025-01-09 14:56:37.626 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 16.3862 ms
+2025-01-09 14:56:37.628 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1125 ms
+2025-01-09 14:56:37.635 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1481 ms
+2025-01-09 14:56:39.926 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 43.7276 ms
+2025-01-09 14:56:41.944 +05:30 [INF] HTTP GET /_blazor responded 101 in 4304.2984 ms
+2025-01-09 14:56:41.945 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 5.5070 ms
+2025-01-09 14:57:53.105 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 14:57:53.171 +05:30 [INF] HTTP GET / responded 200 in 68.3232 ms
+2025-01-09 14:57:53.193 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 6.7312 ms
+2025-01-09 14:57:55.346 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 569.9518 ms
+2025-01-09 14:57:56.367 +05:30 [INF] HTTP GET /addsupplier responded 200 in 53.2556 ms
+2025-01-09 14:57:56.377 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.1210 ms
+2025-01-09 14:57:56.387 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1319 ms
+2025-01-09 14:58:07.259 +05:30 [ERR] Failed executing DbCommand (34ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Suppliers] ([SupplierId], [SupplierAddress], [SupplierContact], [SupplierName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-09 14:58:07.276 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d41160a8-35e3-42e4-b82b-d3cab9f8bb33
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d41160a8-35e3-42e4-b82b-d3cab9f8bb33
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-01-09 14:58:07.377 +05:30 [WRN] Unhandled exception rendering component: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d41160a8-35e3-42e4-b82b-d3cab9f8bb33
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.SupplierRepository.AddSupplier(Supplier inputSupplier, String supplierId) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\SupplierRepository.cs:line 54
+   at InventoryManager.Services.SupplierRepositoryService.AddSupplier(Supplier inputSupplier) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\SupplierRepositoryService.cs:line 44
+   at InventoryManager.Components.Pages.AddSupplier.HandleValidSubmit() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\AddSupplier.razor.cs:line 26
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2025-01-09 14:58:07.404 +05:30 [ERR] Unhandled exception in circuit 'vG3H5_yyBDxDFbU7XnUOz85zC1bgG3lrydlMQdfZTqQ'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d41160a8-35e3-42e4-b82b-d3cab9f8bb33
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.SupplierRepository.AddSupplier(Supplier inputSupplier, String supplierId) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\SupplierRepository.cs:line 54
+   at InventoryManager.Services.SupplierRepositoryService.AddSupplier(Supplier inputSupplier) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\SupplierRepositoryService.cs:line 44
+   at InventoryManager.Components.Pages.AddSupplier.HandleValidSubmit() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\AddSupplier.razor.cs:line 26
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2025-01-09 14:58:07.430 +05:30 [INF] HTTP GET /_blazor responded 101 in 11038.5838 ms
+2025-01-09 14:59:03.760 +05:30 [INF] HTTP GET /addsupplier responded 200 in 3.5488 ms
+2025-01-09 14:59:03.778 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 3.6243 ms
+2025-01-09 14:59:03.790 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1649 ms
+2025-01-09 14:59:03.797 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.4001 ms
+2025-01-09 14:59:03.805 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 34.8169 ms
+2025-01-09 14:59:05.517 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 45.1799 ms
+2025-01-09 14:59:07.541 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 1.7996 ms
+2025-01-09 14:59:07.548 +05:30 [INF] HTTP GET /_blazor responded 101 in 3742.3189 ms
+2025-01-09 14:59:35.505 +05:30 [INF] HTTP GET /addsupplier responded 200 in 1.3250 ms
+2025-01-09 14:59:35.513 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1788 ms
+2025-01-09 14:59:42.892 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Suppliers] ([SupplierId], [SupplierAddress], [SupplierContact], [SupplierName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-09 14:59:42.897 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d41160a8-35e3-42e4-b82b-d3cab9f8bb33
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d41160a8-35e3-42e4-b82b-d3cab9f8bb33
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-01-09 14:59:42.973 +05:30 [WRN] Unhandled exception rendering component: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d41160a8-35e3-42e4-b82b-d3cab9f8bb33
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.SupplierRepository.AddSupplier(Supplier inputSupplier, String supplierId) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\SupplierRepository.cs:line 54
+   at InventoryManager.Services.SupplierRepositoryService.AddSupplier(Supplier inputSupplier) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\SupplierRepositoryService.cs:line 44
+   at InventoryManager.Components.Pages.AddSupplier.HandleValidSubmit() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\AddSupplier.razor.cs:line 26
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2025-01-09 14:59:42.994 +05:30 [ERR] Unhandled exception in circuit 'EpQyNBt1ypqBQmwfzpRRQ-zcYUh1isBMxl-0jOKcTxI'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d41160a8-35e3-42e4-b82b-d3cab9f8bb33
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.SupplierRepository.AddSupplier(Supplier inputSupplier, String supplierId) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\SupplierRepository.cs:line 54
+   at InventoryManager.Services.SupplierRepositoryService.AddSupplier(Supplier inputSupplier) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\SupplierRepositoryService.cs:line 44
+   at InventoryManager.Components.Pages.AddSupplier.HandleValidSubmit() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\AddSupplier.razor.cs:line 26
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2025-01-09 14:59:43.016 +05:30 [INF] HTTP GET /_blazor responded 101 in 7498.2294 ms
+2025-01-09 15:00:08.651 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 15:00:08.716 +05:30 [INF] HTTP GET / responded 200 in 67.3118 ms
+2025-01-09 15:00:08.731 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.9545 ms
+2025-01-09 15:01:07.600 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 1677.2548 ms
+2025-01-09 15:01:09.109 +05:30 [INF] HTTP GET /addsupplier responded 200 in 68.4319 ms
+2025-01-09 15:01:09.120 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.1878 ms
+2025-01-09 15:01:09.133 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 5.9924 ms
+2025-01-09 15:01:20.826 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 15:01:20.893 +05:30 [INF] HTTP GET / responded 200 in 69.8105 ms
+2025-01-09 15:01:20.914 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.6853 ms
+2025-01-09 15:01:23.933 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 603.2198 ms
+2025-01-09 15:01:25.528 +05:30 [INF] HTTP GET /addsupplier responded 200 in 54.4033 ms
+2025-01-09 15:01:25.539 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.0592 ms
+2025-01-09 15:01:25.549 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0800 ms
+2025-01-09 15:01:34.051 +05:30 [ERR] Failed executing DbCommand (31ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Suppliers] ([SupplierId], [SupplierAddress], [SupplierContact], [SupplierName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-09 15:01:34.069 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'InventoryManager.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:69f27226-f3ed-43f4-ba15-537aacef26bb
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:69f27226-f3ed-43f4-ba15-537aacef26bb
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-01-09 15:01:34.171 +05:30 [WRN] Unhandled exception rendering component: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:69f27226-f3ed-43f4-ba15-537aacef26bb
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.SupplierRepository.AddSupplier(Supplier inputSupplier, String supplierId) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\SupplierRepository.cs:line 54
+   at InventoryManager.Services.SupplierRepositoryService.AddSupplier(Supplier inputSupplier) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\SupplierRepositoryService.cs:line 44
+   at InventoryManager.Components.Pages.AddSupplier.HandleValidSubmit() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\AddSupplier.razor.cs:line 26
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2025-01-09 15:01:34.198 +05:30 [ERR] Unhandled exception in circuit 'lW5R4NumMPQ_ZJn0r4NtxFeEsO-3PsCx4ryioXoTd8U'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Suppliers'. Cannot insert duplicate key in object 'dbo.Suppliers'. The duplicate key value is (S10).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:69f27226-f3ed-43f4-ba15-537aacef26bb
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoryManager.Repositories.SupplierRepository.AddSupplier(Supplier inputSupplier, String supplierId) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Repositories\SupplierRepository.cs:line 54
+   at InventoryManager.Services.SupplierRepositoryService.AddSupplier(Supplier inputSupplier) in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Services\SupplierRepositoryService.cs:line 44
+   at InventoryManager.Components.Pages.AddSupplier.HandleValidSubmit() in C:\Users\Khan_Aja\source\repos\InventoryManager\InventoryManager\Components\Pages\AddSupplier.razor.cs:line 26
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2025-01-09 15:01:34.225 +05:30 [INF] HTTP GET /_blazor responded 101 in 8671.9378 ms
+2025-01-09 15:04:35.781 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 15:04:35.846 +05:30 [INF] HTTP GET / responded 200 in 67.9489 ms
+2025-01-09 15:04:35.867 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 5.0323 ms
+2025-01-09 15:04:37.410 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 596.6306 ms
+2025-01-09 15:05:07.358 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 15:05:07.421 +05:30 [INF] HTTP GET / responded 200 in 65.3052 ms
+2025-01-09 15:05:07.436 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.5323 ms
+2025-01-09 15:05:09.235 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 611.2653 ms
+2025-01-09 15:06:11.885 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 15:06:11.948 +05:30 [INF] HTTP GET / responded 200 in 64.9021 ms
+2025-01-09 15:06:11.968 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 2.5629 ms
+2025-01-09 15:06:14.541 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 752.3387 ms
+2025-01-09 15:08:21.420 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 15:08:21.483 +05:30 [INF] HTTP GET / responded 200 in 65.8362 ms
+2025-01-09 15:08:21.515 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 13.6851 ms
+2025-01-09 15:08:23.182 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 600.1187 ms
+2025-01-09 15:27:18.333 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 15:27:18.400 +05:30 [INF] HTTP GET / responded 200 in 69.0813 ms
+2025-01-09 15:27:18.418 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.9699 ms
+2025-01-09 15:27:20.323 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 756.0975 ms
+2025-01-09 15:28:17.112 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 15:28:17.177 +05:30 [INF] HTTP GET / responded 200 in 67.8577 ms
+2025-01-09 15:28:17.207 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 11.3051 ms
+2025-01-09 15:28:19.349 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 636.8593 ms
+2025-01-09 15:28:19.369 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 1.0102 ms
+2025-01-09 15:28:19.379 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.0349 ms
+2025-01-09 15:28:27.248 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 36.9512 ms
+2025-01-09 15:28:30.654 +05:30 [INF] Supplier not found.
+2025-01-09 15:30:27.528 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-01-09 15:30:27.595 +05:30 [INF] HTTP GET / responded 200 in 70.6878 ms
+2025-01-09 15:30:27.613 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 1.8975 ms
+2025-01-09 15:30:30.308 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 635.5158 ms
+2025-01-09 15:30:30.322 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.9887 ms
+2025-01-09 15:30:30.334 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 4.1295 ms
+2025-01-09 15:32:13.609 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 1.8232 ms
+2025-01-09 15:32:13.703 +05:30 [INF] HTTP GET /_blazor responded 101 in 103365.4050 ms
+2025-01-09 15:32:51.977 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1680 ms
+2025-01-09 15:32:52.067 +05:30 [INF] HTTP GET /_blazor responded 101 in 38450.7817 ms
+2025-01-09 15:32:56.128 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 47.1697 ms
+2025-01-09 15:32:56.142 +05:30 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.3440 ms
+2025-01-09 15:32:56.144 +05:30 [INF] HTTP GET /_blazor responded 101 in 4111.4429 ms
+2025-01-09 15:32:56.156 +05:30 [INF] HTTP GET /_blazor/initializers responded 200 in 0.1071 ms
+2025-01-09 15:32:56.159 +05:30 [INF] HTTP POST /_blazor/disconnect responded 200 in 23.3924 ms
+2025-01-09 15:32:56.163 +05:30 [INF] HTTP POST /_blazor/negotiate responded 200 in 0.1282 ms
+2025-01-09 15:33:06.103 +05:30 [INF] HTTP GET /addsupplier responded 200 in 29.2424 ms
+2025-01-09 15:33:28.580 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 4.0139 ms
+2025-01-09 15:33:33.545 +05:30 [INF] HTTP GET /addsupplier responded 200 in 1.2131 ms
+2025-01-09 15:34:08.726 +05:30 [INF] HTTP GET /supplieroverview responded 200 in 3.6359 ms
