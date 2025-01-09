@@ -1,11 +1,23 @@
 ﻿
 @rendermode InteractiveServer
 @using InventoryManager.Components; 
-<div class="card" style="width: 18rem;">
-    <img src=@product.ImageUrl class="card-img-top" alt="Product Image">
-    <div class="card-body">
-        <h5 class="card-title">@product.ProductName</h5>
-        <p class="card-text">@product.Description</p>
-        <a id="directionLink" href="/productoverview/@product.ProductId" class="btn btn-primary" style="background-color: purple">Details</a>
+
+@if(isLoading) {
+    <p>Loading...</p>
+}
+else {
+    <div class="card" style="width: 18rem;">
+        <img src=@product.ImageUrl class="card-img-top" alt="Product Image">
+        <div class="card-body">
+            <h5 class="card-title">@product.ProductName</h5>
+            <p class="card-text">@product.Description</p>
+            <a id="directionLink" href="/productoverview/@product.ProductId" class="btn btn-primary" style="background-color: purple">Details</a>
+            <a id="deleteButton" class="btn btn-danger" @onclick="DeleteProduct">Delete</a>
+        </div>
     </div>
-</div>
+}
+
+@if(!isSuccess) {
+    <h1>@errorMessage</h1>
+}
+

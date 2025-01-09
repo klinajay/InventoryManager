@@ -25,6 +25,11 @@ namespace InventoryManager.Services
             bool status = await _productRepository.UpdateProduct(responseProduct);
             return status;
         }
+        public async Task<bool> DeleteProduct(string Id)
+        {
+            bool status = await _productRepository.DeleteProduct(Id);
+            return status;
+        }
         public async Task<int> GetTotalProducts()
         {
             return await _productRepository.GetTotalProducts();

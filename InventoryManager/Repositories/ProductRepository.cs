@@ -3,6 +3,7 @@ using InventoryManager.Contracts.Repositories;
 using InventoryManager.Data;
 using InventoryManager.Models.Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
 
 namespace InventoryManager.Repositories
@@ -33,7 +34,7 @@ namespace InventoryManager.Repositories
         }
         public async Task<Product> GetProductById(string Id)
         {
-            Product selectedProduct = default!;
+            Product? selectedProduct = default!;
             
             selectedProduct = await _appDbContext.Products.FirstOrDefaultAsync(product => product.ProductId == Id);
             
@@ -63,6 +64,26 @@ namespace InventoryManager.Repositories
             
             
             
+        }
+        public async Task<bool> DeleteProduct(string Id)
+        {
+            if (Id.IsNullOrEmpty())
+            {
+                Log.Information("Provided product id is null.");
+                return false;
+            }
+
+            Product? existingProduct = await _appDbContext.Products.FindAsync(Id);
+
+            if(existingProduct != null)
+            {
+                _appDbContext.Products.Remove(existingProduct);
+                await _appDbContext.SaveChangesAsync();
+                return true;
+            }
+            Log.Information("Product not found.");
+            return false;
+
         }
         public void Dispose() {
             _appDbContext.Dispose();

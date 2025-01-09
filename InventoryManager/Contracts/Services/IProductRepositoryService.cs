@@ -8,5 +8,6 @@ namespace InventoryManager.Contracts.Services
         public Task<int> GetTotalProducts();
         public  Task<Product> GetProductById(string Id);
         public Task<bool> UpdateProduct(Product responseProduct);
+        public Task<bool> DeleteProduct(string Id);
     }
 }
