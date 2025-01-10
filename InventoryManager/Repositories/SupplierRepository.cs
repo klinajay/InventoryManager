@@ -38,7 +38,7 @@ namespace InventoryManager.Repositories
         public async Task<Supplier> GetSupplierById(string Id)
         {
             Supplier selectedSupplier = default!;
-            selectedSupplier = await _appDbContext.Suppliers.SingleOrDefaultAsync(supplier => supplier.SupplierId == Id);
+            selectedSupplier = await _appDbContext.Suppliers.FirstOrDefaultAsync(supplier => supplier.SupplierId == Id);
             return selectedSupplier;
         }
        

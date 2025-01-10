@@ -3,6 +3,11 @@
 @rendermode InteractiveServer
 <h3>Add Product</h3>
 
+@if (isError)
+{
+    <h1 style="color:red">@errorMessage</h1>
+}
+
 
 @if(isLoading) {
 	<p>Loading...</p>
@@ -79,7 +84,4 @@ else {
         <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
     </EditForm>
 
-}
-@if(isError) {
-    <h1>@errorMessage</h1>
 }

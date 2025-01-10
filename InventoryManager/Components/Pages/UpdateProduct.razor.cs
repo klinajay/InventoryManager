@@ -67,6 +67,33 @@ namespace InventoryManager.Components.Pages
     public async Task HandleValidSubmit() {
             try
             {
+                if(ProductSelected.ProductPrice <= 0)
+            {
+                    errorMessage = "Price must be greater than zero.";
+                    isError = true;
+                    return;
+                }
+
+                if (ProductSelected.ProductQuantity <= 0)
+                {
+                    errorMessage = "Quantity must be greater than zero.";
+                    isError = true;
+                    return;
+                }
+                Supplier selectedSupplier = await SupplierRepositoryService.GetSupplierById(ProductSelected.SupplierId);
+                if(selectedSupplier == null)
+                {
+                    errorMessage = "Supplier not found.";
+                    isError = true;
+                    return;
+                }
+                ProductCategory selectedCategory = await ProductCategoryRepositoryService.GetProductCategoriesById(ProductSelected.ProductCategoryId);
+                if (selectedCategory == null)
+                {
+                    errorMessage = "Product category not found.";
+                    isError = true;
+                    return;
+                }
                 isLoading = true;
                 bool status = await ProductRepositoryService.UpdateProduct(ProductSelected);
                 if(!status)
